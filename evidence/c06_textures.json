@@ -1,0 +1,11 @@
+{
+  "background": "two supplied frames reconstructed with ImageGen, Squidward removed; circle alpha retained",
+  "circle_format": "DXT5 1024x1024,11mips",
+  "mask_format": "BGRA8 64x8",
+  "mask_channels": "R=red/coral eye swatches,G=white eye swatch,black/blood=0",
+  "texture_hashes": {
+    "face_colors.tex": "ed03d591dfb8bc96",
+    "face_bloom_mask.tex": "a91a374647d853f0",
+    "boys_who_cry.tex": "ab52ca8eebd0a86d"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "package": "output\\RedMist-Squidward-Briar-C01.fantome",
+  "sha256": "094ac00f3d5dbdc09caf7414acf85d69db134fadd8cb25058effc453699dc6cf",
+  "bytes": 959181,
+  "zip_crc": "PASS",
+  "wad_member_count": 2,
+  "wad_hashes": [
+    "0e35941cdacaff56",
+    "9144d26d7f271649"
+  ],
+  "roundtrip_payload_bytes_equal": true,
+  "scope": "model and diffuse only; native SKL, ANM, animation graph, skin BIN, VFX, audio, HUD unchanged by omission",
+  "runtime": "NOT TESTED"
+}

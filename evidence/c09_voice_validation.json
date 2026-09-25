@@ -1,0 +1,348 @@
+{
+  "status": "PASS OFFLINE; GAMEPLAY PENDING",
+  "baseline": "C08 en_US voice",
+  "outputs": {
+    "0bf1d74ba8e576a0.bnk": "ecd7060bd0b6bf964f74b7195227dac48a9197c69e21f67821b2c301ac8d1810",
+    "d3bb103ed206538d.wpk": "24202d4a51befec028cf029144a91e6cb72bf282eb95935f28d30bc38b864d17"
+  },
+  "changed_Sounds": [
+    128513408,
+    163888618,
+    177080039,
+    183937742,
+    221654630,
+    269255444,
+    346564831,
+    375503653,
+    375688763,
+    386317815,
+    430404963,
+    470194991,
+    478594826,
+    527649595,
+    536750250,
+    546952684,
+    548877379,
+    556195127,
+    625984195,
+    628396085,
+    634585382,
+    646326126,
+    667767248,
+    686533287,
+    696204545,
+    736360830,
+    757306089,
+    782237165,
+    790296247,
+    791475952,
+    800742266,
+    802172552,
+    810707959,
+    835083315,
+    851879934,
+    973245784,
+    990333990,
+    1055534698
+  ],
+  "changed_media_count": 38,
+  "WPK_media_count": 164,
+  "native_pool_objects_actions_events_unchanged": true,
+  "all_changed_media_single_consumer": true,
+  "pools": {
+    "attack": {
+      "container": 92383177,
+      "slots": 15,
+      "laugh_slots": 12,
+      "scream_slots": 3,
+      "silent_slots": 0,
+      "native_avoid_repeat": 14,
+      "native_weights": [
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000
+      ]
+    },
+    "movement_standard": {
+      "container": 936266281,
+      "slots": 17,
+      "laugh_slots": 17,
+      "scream_slots": 0,
+      "silent_slots": 0,
+      "native_avoid_repeat": 16,
+      "native_weights": [
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000
+      ]
+    },
+    "movement_long": {
+      "container": 26817330,
+      "slots": 11,
+      "laugh_slots": 11,
+      "scream_slots": 0,
+      "silent_slots": 0,
+      "native_avoid_repeat": 10,
+      "native_weights": [
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000
+      ]
+    }
+  },
+  "slots": {
+    "101406140": {
+      "media": 952355956,
+      "role": "scream",
+      "pool": "attack"
+    },
+    "161564829": {
+      "media": 864556338,
+      "role": "scream",
+      "pool": "attack"
+    },
+    "207429644": {
+      "media": 371331112,
+      "role": "scream",
+      "pool": "attack"
+    },
+    "346564831": {
+      "media": 1008056281,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "375503653": {
+      "media": 224597980,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "478594826": {
+      "media": 774038916,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "527649595": {
+      "media": 130386381,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "625984195": {
+      "media": 464801705,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "634585382": {
+      "media": 1003168293,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "686533287": {
+      "media": 74152640,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "757306089": {
+      "media": 650125862,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "790296247": {
+      "media": 900080973,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "835083315": {
+      "media": 1070130243,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "973245784": {
+      "media": 35915392,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "990333990": {
+      "media": 256991505,
+      "role": "laugh",
+      "pool": "attack"
+    },
+    "60179366": {
+      "media": 912339945,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "128513408": {
+      "media": 612497123,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "163888618": {
+      "media": 636996027,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "177080039": {
+      "media": 421599705,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "183937742": {
+      "media": 523891021,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "221654630": {
+      "media": 1029885315,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "269255444": {
+      "media": 227433706,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "386317815": {
+      "media": 860831,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "470194991": {
+      "media": 259417083,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "548877379": {
+      "media": 254549983,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "556195127": {
+      "media": 470557531,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "667767248": {
+      "media": 263175136,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "696204545": {
+      "media": 168045430,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "736360830": {
+      "media": 443532980,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "782237165": {
+      "media": 350779616,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "791475952": {
+      "media": 510174383,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "800742266": {
+      "media": 743872076,
+      "role": "laugh",
+      "pool": "movement_standard"
+    },
+    "324274736": {
+      "media": 748080020,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "375688763": {
+      "media": 409696526,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "430404963": {
+      "media": 818069108,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "536750250": {
+      "media": 1043384537,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "546952684": {
+      "media": 949789118,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "628396085": {
+      "media": 973364592,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "646326126": {
+      "media": 968000084,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "802172552": {
+      "media": 389379105,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "810707959": {
+      "media": 573180832,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "851879934": {
+      "media": 13016981,
+      "role": "laugh",
+      "pool": "movement_long"
+    },
+    "1055534698": {
+      "media": 65277631,
+      "role": "laugh",
+      "pool": "movement_long"
+    }
+  },
+  "audio": "Reuse independently decoded full6.122562s Squidward laugh1; no new conversion or source edits. Three prior scream clips and future emote unchanged.",
+  "rates": "Eligible attack selections:12/15 laugh(80%),3/15 scream(20%). Both movement pools100%laugh. Native shuffle/avoid-repeat produces correlated selections; these are pool shares, not independent per-hit probabilities.",
+  "limits": "Native command cadence and voice parent max1/killNewest retained. New VO may be rejected while a full clip plays. No guaranteed every-step/every-hit trigger, no engine cooldown reduction.",
+  "preserved": "Only two en_US voice files produced. Future emote, all other voice slots/events, native pool cadence, E/steps/death/R-reserved and all visuals untouched."
+}

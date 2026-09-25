@@ -1,0 +1,299 @@
+{
+  "status": "OFFLINE STRUCTURAL AND SAMPLED NATIVE POSE VALIDATION",
+  "model_sha256": "6ffba4d7eb32ce6027ba4773fb706b61f13a3e20b71f87fca8fb0f511d6c7fcf",
+  "checks": {
+    "finite_positions": true,
+    "finite_uvs": true,
+    "finite_normals": true,
+    "normal_length_max_error": 1.2665987814131086e-07,
+    "weight_sum_max_error": 3.725290298461914e-08,
+    "weights_nonnegative": true,
+    "influence_indices_valid": true,
+    "triangle_indices_valid": true,
+    "body_only": true,
+    "native_bind_inverse_max_error": 0.0033321224618703127
+  },
+  "poses": [
+    {
+      "animation": "idle1_sway",
+      "duration_frames": 61.0,
+      "fps": 30.0,
+      "samples": [
+        {
+          "frame": 12.0,
+          "finite": true,
+          "bounds": [
+            [
+              -44.40717315673828,
+              4.929586887359619,
+              -33.63114547729492
+            ],
+            [
+              62.446136474609375,
+              202.59814453125,
+              27.35126304626465
+            ]
+          ]
+        },
+        {
+          "frame": 30.0,
+          "finite": true,
+          "bounds": [
+            [
+              -46.27620315551758,
+              5.9021992683410645,
+              -32.2584114074707
+            ],
+            [
+              39.05647659301758,
+              205.218505859375,
+              29.43102264404297
+            ]
+          ]
+        },
+        {
+          "frame": 48.0,
+          "finite": true,
+          "bounds": [
+            [
+              -48.797760009765625,
+              5.999927520751953,
+              -31.292247772216797
+            ],
+            [
+              39.13904571533203,
+              205.2687530517578,
+              29.047252655029297
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "animation": "run1",
+      "duration_frames": 31.0,
+      "fps": 30.0,
+      "samples": [
+        {
+          "frame": 6.0,
+          "finite": true,
+          "bounds": [
+            [
+              -45.11933135986328,
+              0.12245610356330872,
+              -67.60191345214844
+            ],
+            [
+              38.6724967956543,
+              195.9402313232422,
+              82.30475616455078
+            ]
+          ]
+        },
+        {
+          "frame": 15.0,
+          "finite": true,
+          "bounds": [
+            [
+              -35.58203887939453,
+              5.515073299407959,
+              -40.684112548828125
+            ],
+            [
+              43.35345458984375,
+              203.28875732421875,
+              39.698333740234375
+            ]
+          ]
+        },
+        {
+          "frame": 24.0,
+          "finite": true,
+          "bounds": [
+            [
+              -33.71055603027344,
+              5.960757255554199,
+              -60.242408752441406
+            ],
+            [
+              55.61883544921875,
+              184.0005645751953,
+              47.23660659790039
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "animation": "attack1",
+      "duration_frames": 49.99999976158142,
+      "fps": 30.0,
+      "samples": [
+        {
+          "frame": 9.799999952316284,
+          "finite": true,
+          "bounds": [
+            [
+              -40.36052322387695,
+              -5.5540971755981445,
+              54.076637268066406
+            ],
+            [
+              40.61967468261719,
+              168.9996795654297,
+              183.06753540039062
+            ]
+          ]
+        },
+        {
+          "frame": 24.49999988079071,
+          "finite": true,
+          "bounds": [
+            [
+              -40.343955993652344,
+              41.71210479736328,
+              21.155277252197266
+            ],
+            [
+              42.115657806396484,
+              217.03697204589844,
+              132.35276794433594
+            ]
+          ]
+        },
+        {
+          "frame": 39.19999980926514,
+          "finite": true,
+          "bounds": [
+            [
+              -38.13227081298828,
+              3.0195086002349854,
+              -61.80960464477539
+            ],
+            [
+              67.12643432617188,
+              129.05105590820312,
+              69.88034057617188
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "animation": "spell3_windup",
+      "duration_frames": 29.999999165534973,
+      "fps": 30.0,
+      "samples": [
+        {
+          "frame": 5.799999833106995,
+          "finite": true,
+          "bounds": [
+            [
+              -76.97333526611328,
+              3.811964273452759,
+              -40.92097473144531
+            ],
+            [
+              62.48585891723633,
+              172.1657257080078,
+              46.18387985229492
+            ]
+          ]
+        },
+        {
+          "frame": 14.499999582767487,
+          "finite": true,
+          "bounds": [
+            [
+              -76.76265716552734,
+              3.6728475093841553,
+              -40.93013000488281
+            ],
+            [
+              69.37493133544922,
+              187.65516662597656,
+              23.686466217041016
+            ]
+          ]
+        },
+        {
+          "frame": 23.19999933242798,
+          "finite": true,
+          "bounds": [
+            [
+              -80.3728256225586,
+              5.854198455810547,
+              -112.0627212524414
+            ],
+            [
+              76.74514770507812,
+              142.90371704101562,
+              -3.050304412841797
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "animation": "spell4_cast_in",
+      "duration_frames": 33,
+      "fps": 29.999998435378156,
+      "samples": [
+        {
+          "frame": 6.4,
+          "finite": true,
+          "bounds": [
+            [
+              -46.347293853759766,
+              5.953855037689209,
+              -50.238651275634766
+            ],
+            [
+              58.52089309692383,
+              90.10470581054688,
+              22.281763076782227
+            ]
+          ]
+        },
+        {
+          "frame": 16.0,
+          "finite": true,
+          "bounds": [
+            [
+              -29.18073844909668,
+              9.097491264343262,
+              -49.36879348754883
+            ],
+            [
+              47.386478424072266,
+              210.231689453125,
+              30.788448333740234
+            ]
+          ]
+        },
+        {
+          "frame": 25.6,
+          "finite": true,
+          "bounds": [
+            [
+              -26.886457443237305,
+              235.39727783203125,
+              -75.2969741821289
+            ],
+            [
+              51.64176940917969,
+              371.7346496582031,
+              44.21434020996094
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": "15 sampled native animation poses; five renders use source atlas, not final edited texture. Does not establish gameplay readability or collision/ability behavior.",
+  "visual_review": {
+    "contact_sheet": "evidence/pose_contact_sheet.png",
+    "result": "Head and limbs remain attached in five inspected native poses; no exploded deformation. Four tentacle legs cross/overlap in attack and R poses, consistent with two native leg chains; gameplay feedback needed.",
+    "classification": "NOTICEABLE potential silhouette overlap, not an offline structural failure"
+  }
+}

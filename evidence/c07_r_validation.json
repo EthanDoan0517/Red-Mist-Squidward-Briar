@@ -1,0 +1,55 @@
+{
+  "status": "OFFLINE VALIDATED; screenshot-guided mapping/orientation requires gameplay confirmation",
+  "source_sha256": "b3daf77eaa10aad96c6e16a5f4ab39d4ceb545ba73701fd108a5d1cff8c77b95",
+  "output_sha256": "b73e2197eedba5d98dcda4c633b64ba05f521d2e3150758e2710436f97e1de84",
+  "strict_BIN": {
+    "bytes": 444637,
+    "entries": 64,
+    "checked_declared_sizes": 14411,
+    "fields": 21491,
+    "eof_exact": true
+  },
+  "changed_entries": [
+    {
+      "entry": "6bbc8114",
+      "system": "Briar_Base_R_Berserk_Target",
+      "emitter": "RedFlower_Target",
+      "lifetime_binding_scale_pulse": "unchanged from C06",
+      "blend": 4
+    },
+    {
+      "entry": "c1544e01",
+      "system": "Briar_Base_R_Berserk_Target_Detailed",
+      "emitter": "RedFlower_Target",
+      "lifetime_binding_scale_pulse": "unchanged from C06",
+      "blend": 4
+    },
+    {
+      "entry": "82249db2",
+      "system": "Briar_Base_R_warning",
+      "replaced_emitters": [
+        "mistRingAdd",
+        "Projected",
+        "Rune_1 ",
+        "Rune_2",
+        "Rune_3",
+        "Blend_FLoor",
+        "Rune_1_Noise",
+        "Rune_2_Noise",
+        "Rune_3_Noise",
+        "Praxis1",
+        "mistRingAdd2",
+        "OuterSpiral"
+      ],
+      "remaining": "BoysWhoCry_LargeWarning",
+      "base_scale": 500,
+      "peak_alpha": 0.5,
+      "preserved": "rate, particleLifetime10sec, particleLinger1sec, lifetime9sec, host cleanup, bindWeight1, ground render pass, native uniform X scale curve and alpha fade"
+    }
+  ],
+  "unchanged_entries": 61,
+  "mapping_evidence": "References/R hitting problem.png: Briar still travelling to marked dummy, large native edge surrounds target before arrival; R_warning owns edge meshes and ground floor. R_AoE arrival system remains unchanged.",
+  "orientation": "native ArbitraryQuad XY plane, birthRotation(90,0,0) to XZ; world emitter and particle orientation, no direction/post rotation, zero angular rates; UV+90 intended screen-CCW90 correction, floor-left to floor-bottom",
+  "color": "large artwork white tint alpha0.5 (native fades retained), small source-alpha additive red flower",
+  "preserved": "burger rotation, face shader/material, other particle systems, skeleton/animation/audio"
+}

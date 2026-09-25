@@ -1,0 +1,11 @@
+decoding C:\Users\etqdo\Downloads\Squidward briar\work\c07-audio-prepared\laugh.wem
+sample rate: 44100 Hz
+channels: 1
+channel mask: 0x4 / FC
+stream total samples: 648008 (0:14.694 seconds)
+encoding: Custom Vorbis
+layout: flat
+metadata from: Audiokinetic Wwise RIFF header
+bitrate: 76 kbps
+sample type: float
+play duration: 648008 samples (0:14.694 seconds)

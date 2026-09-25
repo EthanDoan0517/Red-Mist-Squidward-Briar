@@ -1,0 +1,247 @@
+{
+  "status": "OFFLINE VALIDATED \u2014 AWAITING GAMEPLAY AUDIO TIMING/MIX TEST",
+  "clips": [
+    {
+      "role": "e_release",
+      "source": "References\\Audio\\GETOUTOFMYHOUSE, briar E.wav",
+      "source_sha256": "1ddd33739ccca177094508c07eebe60ae1f928bd39532fc9c2b9f6bce9903fbb",
+      "crop_seconds": null,
+      "peak_target_dbfs": -3,
+      "native_media_id": 736091677,
+      "native_sound_id": 404860998,
+      "codec": "Wwise Vorbis (0xffff), mono 44100Hz; unchanged native codec plugin",
+      "decoded_duration": 2.546984126984127,
+      "wem_bytes": 23904,
+      "wem_sha256": "0a78d51a3208d500f302853e3ac456a2f39ec093a4fc75a8a75b56c5a3c495bb",
+      "decoded_peak_dbfs": -1.3373455043093752,
+      "decoded_clipped_samples": 0
+    },
+    {
+      "role": "death",
+      "source": "References\\Audio\\Worlds smallest violin, play on death.wav",
+      "source_sha256": "3647e3c0516e8b68aca4bee09c64cbff97e3bf15c9bf22d64747f4e56cd9b3b8",
+      "crop_seconds": null,
+      "peak_target_dbfs": -9,
+      "native_media_id": 807751399,
+      "native_sound_id": 290797096,
+      "codec": "Wwise Vorbis (0xffff), mono 44100Hz; unchanged native codec plugin",
+      "decoded_duration": 9.60013605442177,
+      "wem_bytes": 87280,
+      "wem_sha256": "fbeed985520c6454ebfa1fecd794bd6f8de8e01c2c1d7bf94a221a5b9b6de8c0",
+      "decoded_peak_dbfs": -9.193789405439663,
+      "decoded_clipped_samples": 0
+    },
+    {
+      "role": "step",
+      "source": "References\\Audio\\Walking squidward sound.wav",
+      "source_sha256": "54e7f3ef7b6e402c65c703071d3c3ab88c4a8f16742a20feff0998af7407cd12",
+      "crop_seconds": [
+        0.16,
+        0.4
+      ],
+      "peak_target_dbfs": -10,
+      "native_media_id": 1477413201,
+      "native_sound_id": null,
+      "codec": "Wwise Vorbis (0xffff), mono 44100Hz; unchanged native codec plugin",
+      "decoded_duration": 0.24,
+      "wem_bytes": 3312,
+      "wem_sha256": "6113ea80d16795508a63ed6bc476ecfcbf4115af320dcde0518ccac6a4f3938f",
+      "decoded_peak_dbfs": -9.851362432553742,
+      "decoded_clipped_samples": 0
+    }
+  ],
+  "event_mapping": {
+    "E": "Play_sfx_Briar_BriarEMis_missilecast (E release, not charge loop)",
+    "death": "Play_sfx_Briar_Death3D_cast",
+    "walking": "Play_sfx_RedMistBriar_Step"
+  },
+  "new_ids": {
+    "StepSound": 1472003245,
+    "StepAction": 414678710,
+    "DeathStopAction": 3211854510,
+    "StepEvent": 4288349277,
+    "DeathStopEvent": 2332522993
+  },
+  "animation_audio_additions": [
+    {
+      "clip_hash": "f112f5b2",
+      "native_animation": "run1.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0
+      ]
+    },
+    {
+      "clip_hash": "5e0236df",
+      "native_animation": "run1_in1.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0,
+        35.0
+      ]
+    },
+    {
+      "clip_hash": "90f44310",
+      "native_animation": "run_frenzy.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0
+      ]
+    },
+    {
+      "clip_hash": "92f44636",
+      "native_animation": "run_frenzyc.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0,
+        35.0,
+        50.0,
+        65.0,
+        80.0
+      ]
+    },
+    {
+      "clip_hash": "158306dd",
+      "native_animation": "run_frenzy_in_1.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        7.0,
+        22.0
+      ]
+    },
+    {
+      "clip_hash": "12830224",
+      "native_animation": "run_frenzy_in_2.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        6.0,
+        21.0
+      ]
+    },
+    {
+      "clip_hash": "138303b7",
+      "native_animation": "run_frenzy_in_3.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0
+      ]
+    },
+    {
+      "clip_hash": "a6f67bd9",
+      "native_animation": "run_fast.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0
+      ]
+    },
+    {
+      "clip_hash": "5f023872",
+      "native_animation": "run1_in2.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        18.0,
+        33.0,
+        48.0,
+        63.0,
+        78.0
+      ]
+    },
+    {
+      "clip_hash": "60023a05",
+      "native_animation": "run1_in2.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0,
+        35.0,
+        50.0,
+        65.0,
+        80.0
+      ]
+    },
+    {
+      "clip_hash": "90563b89",
+      "native_animation": "run_homeguard.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        62.0,
+        77.0,
+        92.0
+      ]
+    },
+    {
+      "clip_hash": "2e8673ad",
+      "native_animation": "run_homeguard.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        5.0,
+        20.0,
+        35.0,
+        50.0
+      ]
+    },
+    {
+      "clip_hash": "fe278fd2",
+      "native_animation": "run_frenzy_in_crit.anm",
+      "event": "Play_sfx_RedMistBriar_Step",
+      "frames": [
+        7.0,
+        22.0
+      ]
+    },
+    {
+      "clip_hash": "9f77283f",
+      "native_animation": "windown.anm",
+      "event": "Stop_sfx_RedMistBriar_Death",
+      "frames": [
+        0.0
+      ]
+    }
+  ],
+  "native_media_count": 110,
+  "preserved_native_media": 108,
+  "new_media_count": 1,
+  "preserved_native_hirc_objects": 432,
+  "native_hirc_changes": "Only uInMemoryMediaSize for E/death sounds;5 new isolated walking/stop objects. All existing W foley unchanged.",
+  "lifecycle": "E and death one-shot; death receives explicit native stop-action at respawn; 0.24s walking contacts occur only within running clips, no looping sound and no long-clip overlap. Footstep phase is preliminary until gameplay.",
+  "outputs": {
+    "ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_audio.bnk": "2445fdb1a2e96554f991230e1f275dd3544224e5d95d83686094a1e24b747f4c",
+    "ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_events.bnk": "52ae4685d091f3078f9d1702b1394e93a517102d0b817cf978d695d137c4ff8c",
+    "DATA\\Characters\\Briar\\Animations\\Skin0.bin": "6f333fa5d097480e43f006df251e7b38fd1d7debefadff78a461fc1c12e21674"
+  },
+  "tool_sources": [
+    "https://github.com/pas2k/wav2wem",
+    "https://github.com/bnnm/wwiser",
+    "https://github.com/vgmstream/vgmstream"
+  ],
+  "limits": "Engine compatibility and mix/timing await gameplay; offline independent WEM decoding is not runtime proof.",
+  "strict_animation_BIN": {
+    "bytes": 72251,
+    "entries": 1,
+    "checked_declared_sizes": 2553,
+    "fields": 2877,
+    "eof_exact": true
+  },
+  "animation_scope_validation": {
+    "original_graph_preserved_except_added_sound_events": true,
+    "added_sound_events": 42,
+    "all_native_ANM_transforms_unmodified": true
+  },
+  "independent_wwiser_validation": {
+    "version": "v20260808",
+    "all_output_objects_parse_without_errors": true,
+    "media_ids_sizes_and_Vorbis_plugin_verified": true,
+    "event_simulation": "Three selected events resolve to correct sound/media; E and death native sequence LoopCount=1; step direct one-shot. Missing global buses are inherited native dependencies, not replaced.",
+    "native_E_release_delay_ms": 200
+  },
+  "tool_revisions": {
+    "wav2wem": "38e916953bec63862b13b449d780d1303a1bf29c",
+    "wwiser": "5bd9b3e5f2285b33aefc1cacac85507bfb0c9a5a"
+  }
+}

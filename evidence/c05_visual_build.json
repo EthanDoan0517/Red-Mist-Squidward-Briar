@@ -1,0 +1,70 @@
+{
+  "status": "BUILT; APPEARANCE REVIEW PENDING",
+  "source_candidate": "C04",
+  "clarinet_scale_from_C04": 3,
+  "clarinet_scale_from_C03": 5.25,
+  "burger_scale_from_C04": 2,
+  "new_face_vertices": 1044,
+  "eye_shadow": "native eye surfaces black",
+  "eyes": "two red ellipses with white centers",
+  "blood": "six head-weighted surface-following red rivulets",
+  "body_texture_target": "#CAC6CF; imagegen shaded gray atlas",
+  "removed_flare_systems": [
+    {
+      "entry": "1d30e27c",
+      "system": "Briar_Base_Z_Frenzy_Daggers_Spawn",
+      "emitters_removed": 10
+    },
+    {
+      "entry": "36783e2f",
+      "system": "Briar_Base_R_Cas_BackJets_BlastOff",
+      "emitters_removed": 4
+    },
+    {
+      "entry": "8694b084",
+      "system": "Briar_Base_Z_Frenzy_Daggers",
+      "emitters_removed": 5
+    },
+    {
+      "entry": "8df1b728",
+      "system": "Briar_Base_R_Cas_Jets",
+      "emitters_removed": 21
+    },
+    {
+      "entry": "b606bf46",
+      "system": "Briar_Base_R_BackJets_ChildParticle",
+      "emitters_removed": 10
+    },
+    {
+      "entry": "c4127d38",
+      "system": "Briar_Base_Z_Frenzy_DaggersL",
+      "emitters_removed": 5
+    },
+    {
+      "entry": "ecace1ad",
+      "system": "Briar_Base_R_BackJets",
+      "emitters_removed": 9
+    }
+  ],
+  "unchanged_BIN_entries": 55,
+  "strict_BIN": {
+    "bytes": 469400,
+    "entries": 63,
+    "checked_declared_sizes": 15112,
+    "fields": 22702,
+    "eof_exact": true
+  },
+  "SKN_layout": {
+    "version": "4.1",
+    "vertices": 16505,
+    "indices": 81666,
+    "stride": 52,
+    "flags": 0,
+    "vertex_end": 1021904,
+    "required_bytes": 1021916,
+    "actual_bytes": 1021916,
+    "footer_bytes": 12,
+    "complete": true
+  },
+  "palette_texture": "ASSETS/RedMistBriar/face_colors.tex"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "OFFLINE PASS; runtime orientation/presentation pending",
+  "bin_sha256": "b73e2197eedba5d98dcda4c633b64ba05f521d2e3150758e2710436f97e1de84",
+  "strict": {
+    "bytes": 444637,
+    "entries": 64,
+    "checked_declared_sizes": 14411,
+    "fields": 21491,
+    "eof_exact": true
+  },
+  "changed_entries": [
+    "6bbc8114",
+    "82249db2",
+    "c1544e01"
+  ],
+  "unchanged_entries": 61,
+  "large_peak_opacity": 0.5,
+  "flower": "512squareDXT5,10mips,additive",
+  "systems": [
+    {
+      "system": "Briar_Base_R_Berserk_Target",
+      "texture": "ASSETS/RedMistBriar/red_flower.tex",
+      "orientation": "XZ ground; fixed UV90; no inherited yaw/spin"
+    },
+    {
+      "system": "Briar_Base_R_warning",
+      "texture": "ASSETS/RedMistBriar/boys_who_cry.tex",
+      "orientation": "XZ ground; fixed UV90; no inherited yaw/spin"
+    },
+    {
+      "system": "Briar_Base_R_Berserk_Target_Detailed",
+      "texture": "ASSETS/RedMistBriar/red_flower.tex",
+      "orientation": "XZ ground; fixed UV90; no inherited yaw/spin"
+    }
+  ],
+  "reuse": "C06 model,geometry,weights,eyes,props,body/HUD/othertextures unchanged; no repeat pose renders required",
+  "mapping": "User supplied screenshot R hitting problem.png identifies large warning during Briar approach"
+}

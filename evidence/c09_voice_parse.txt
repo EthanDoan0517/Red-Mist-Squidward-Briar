@@ -1,0 +1,9 @@
+wwiser v20260808 (python 3.12.14)
+parser: parsing C:\Users\etqdo\Downloads\Squidward briar\work\c09-voice\Briar.en_US.wad.client\0bf1d74ba8e576a0.bnk
+parser: done
+names: loading names
+names: couldn't find C:\Users\etqdo\Downloads\Squidward briar\work\c05-audio-tools\wwiser\wwnames.db3 name file
+names: done
+dumper: writting C:\Users\etqdo\Downloads\Squidward briar\evidence\c09_voice.xml
+dumper: done
+(done)

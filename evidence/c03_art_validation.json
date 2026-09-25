@@ -1,0 +1,82 @@
+{
+  "status": "OFFLINE VALIDATED",
+  "source": "References\\reference image, splash art and portrait icon.webp",
+  "source_sha256": "01abce23603fc7700c84620785db96e3ee062cd8d27b3f9dfb4c5ac6eb042b99",
+  "source_dimensions": [
+    1080,
+    607
+  ],
+  "processing": "Crop and Lanczos resize supplied artwork; native circular portrait alpha mask retained; DDS DXT encoding wrapped in native TEX. No generated/repainted content.",
+  "assets": [
+    {
+      "role": "portrait_square",
+      "source_crop_xyxy": [
+        442,
+        135,
+        802,
+        495
+      ],
+      "native_hash": "9a2d941d891bbf9c",
+      "native_reference_match": "hud/briar_square_0.tex",
+      "native_sha256": "da86be5d66b59b93f53079672373717c32f3c6fee312a45ec2a3594054d1fce0",
+      "output_sha256": "b620d5d8e4f460fa48d121cddb3cddcbadb189600c65104f774d17a190e92731",
+      "output": "work\\c03-art\\Briar.wad.client\\9a2d941d891bbf9c.tex",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "DXT1",
+      "mips": 1,
+      "bytes": 8204,
+      "decoded_preview": "evidence\\c03_art_portrait_square.png",
+      "native_alpha_mask_preserved_before_DXT5_encoding": false
+    },
+    {
+      "role": "portrait_circle",
+      "source_crop_xyxy": [
+        408,
+        115,
+        828,
+        535
+      ],
+      "native_hash": "b7aca08692f3da3e",
+      "native_reference_match": "hud/briar_circle_0.tex",
+      "native_sha256": "7fc4d04255a720d4d879e2496cd6acf25d57c9235b5edc5d897c81bb94d8f5be",
+      "output_sha256": "236da68d73fbe4412da2f1286922665ef15c499e3bd0de2ee022253e7286d2d1",
+      "output": "work\\c03-art\\Briar.wad.client\\b7aca08692f3da3e.tex",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "DXT5",
+      "mips": 1,
+      "bytes": 16396,
+      "decoded_preview": "evidence\\c03_art_portrait_circle.png",
+      "native_alpha_mask_preserved_before_DXT5_encoding": true
+    },
+    {
+      "role": "loading",
+      "source_crop_xyxy": [
+        454,
+        0,
+        788,
+        607
+      ],
+      "native_hash": "25a8846439092af3",
+      "native_reference_match": "briarloadscreen_0.tex",
+      "native_sha256": "3b7b6acb4609059f6dbf0339a3834f3a57dc6e57da787c81e183d900db94c7ed",
+      "output_sha256": "6fea8704ea90ff648c4c97eeb4ddb2ebf8853d09bf08430f19aa550644790097",
+      "output": "work\\c03-art\\Briar.wad.client\\25a8846439092af3.tex",
+      "dimensions": [
+        308,
+        560
+      ],
+      "format": "DXT1",
+      "mips": 1,
+      "bytes": 86252,
+      "decoded_preview": "evidence\\c03_art_loading.png",
+      "native_alpha_mask_preserved_before_DXT5_encoding": false
+    }
+  ],
+  "limits": "Native HUD and loading appearance requires user gameplay/loading feedback. Original supplied artwork has intentionally soft/video-source detail; no sharpening or invented detail applied."
+}

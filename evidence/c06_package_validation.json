@@ -1,0 +1,38 @@
+{
+  "status": "OFFLINE VALIDATED; C06 GAMEPLAY PENDING",
+  "package": "skin versions\\RedMist-Squidward-Briar-C06.fantome",
+  "sha256": "12e95c792497acc12023b2ef1b97669ef16e468c304c50a6f6eccf08baa3b9e6",
+  "bytes": 2116851,
+  "wad_counts": {
+    "Briar.en_US.wad.client": 2,
+    "Briar.wad.client": 15
+  },
+  "zip_crc": "PASS",
+  "native_path_hashes": "PASS",
+  "all_final_payloads_match_staging": "PASS",
+  "strict_SKN_BIN": "PASS",
+  "manifests": {
+    "Briar.en_US.wad.client": {
+      "0bf1d74ba8e576a0.bnk": "9e5a95bf3b996fe397536bf83eba9ce501f202d8cb0f3e3d36d03d3d568f97ab",
+      "d3bb103ed206538d.wpk": "17bc91e1098760bb0eeddb1192eee33cbcd920f82fa21050c745e5c3a74ced80"
+    },
+    "Briar.wad.client": {
+      "0e35941cdacaff56.tex": "3942936b52c6ee8b3c416b241bbb9ec842c89dfb4e24ccd21b66bcc75fde041a",
+      "0ea451e749d9d041.tex": "c1fab0e792e97b62495ec126c12d0a8b631db4d2d68a58a7cbff5c838293e0be",
+      "25a8846439092af3.tex": "6fea8704ea90ff648c4c97eeb4ddb2ebf8853d09bf08430f19aa550644790097",
+      "9a2d941d891bbf9c.tex": "b620d5d8e4f460fa48d121cddb3cddcbadb189600c65104f774d17a190e92731",
+      "b7aca08692f3da3e.tex": "236da68d73fbe4412da2f1286922665ef15c499e3bd0de2ee022253e7286d2d1",
+      "f279b76afd0f0a62.bin": "b3daf77eaa10aad96c6e16a5f4ab39d4ceb545ba73701fd108a5d1cff8c77b95",
+      "ASSETS/RedMistBriar/boys_who_cry.tex": "0b571abc4c798bc551faa7b832a81d1102298bed1a063ab2ca1dba7cf62ea8bd",
+      "ASSETS/RedMistBriar/burger.scb": "132fff9be87ec3c70b01a1d8093afc7a62d324c5d8003f6b3babf3e66e852db9",
+      "ASSETS/RedMistBriar/burger.tex": "4711a1de284e7acece6576c8e75917cb138e069d83d81062cf5654c6956912bc",
+      "ASSETS/RedMistBriar/face_bloom_mask.tex": "9910f3d051d70cb7a35245ff7bb1802e4779346b1a02c1e2735fd0b886258627",
+      "ASSETS/RedMistBriar/face_colors.tex": "6c08e2a35d483e73277f14619a368655eb51b780fe46776d67bc82a8e325c71f",
+      "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn": "ea70f3aab9e1877f6be69419007cba7cd587bf37add213dfc9f9dc500f310be3",
+      "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_audio.bnk": "f1213f8b11deabe9bccba3ae20e31b4d2cbaf96f8cf172dc86d3b325683e0c26",
+      "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_events.bnk": "f6daf1fc4c29db24fefbe24170a0236a57db83dcddd0f17303235c232c727197",
+      "DATA/Characters/Briar/Animations/Skin0.bin": "a4b4f1ecfd001608a67c61ed038f6089598d05de62eb8dab1c5b620f5747ba4d"
+    }
+  },
+  "runtime": "User reported C05 black eyes and inaudible death. C06 contains targeted fixes, not yet runtime confirmed."
+}

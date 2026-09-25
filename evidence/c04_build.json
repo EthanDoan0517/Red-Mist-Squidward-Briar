@@ -1,0 +1,51 @@
+{
+  "status": "BUILT; OFFLINE VALIDATION PENDING",
+  "clarinet_uniform_scale": 1.75,
+  "grips_unchanged": true,
+  "body_indices_weights_uv_normals_unchanged": true,
+  "modified_clarinet_vertices": 492,
+  "R_projectile_emitters_remaining": [
+    "Missile (burger)"
+  ],
+  "R_projectile_emitters_removed_since_C03": [
+    "Projected",
+    "GoodOne",
+    "GoodOne1",
+    "FireSkirt_R",
+    "FireSkirt_L",
+    "FireSkirt_R_Flat",
+    "FireSkirt_L_Flat",
+    "Missle4",
+    "impactStones",
+    "Projected1",
+    "TrailBlend1",
+    "impactStones1",
+    "FireSkirt_R_Mid",
+    "FireSkirt_R_Top_Add",
+    "FireSkirt_L_Mid",
+    "FireSkirt_R_Top_Add1",
+    "TrailBlend3",
+    "TrailBlend4",
+    "Hitbox_SmokeTrail",
+    "Hitbox_SmokeTrail_2",
+    "Temp_GroundGlow2"
+  ],
+  "R_scale": "constant (1,1,1), gem squash removed",
+  "R_orientation": "Y-up burger, X/Z-parallel buns; isLocalOrientation=false and isRotationEnabled=false; intended ground-upright appearance, inherited trajectory retained",
+  "other_BIN_entries_unchanged": 62,
+  "changed_assets": [
+    "Briar_Base.skn",
+    "f279b76afd0f0a62.bin"
+  ],
+  "sha256": {
+    "0e35941cdacaff56.tex": "3e28a4192b71374bf5d1a41e9ef54cd5d8aa2b1c881407969ee5810aa8866895",
+    "0ea451e749d9d041.tex": "c1fab0e792e97b62495ec126c12d0a8b631db4d2d68a58a7cbff5c838293e0be",
+    "25a8846439092af3.tex": "6fea8704ea90ff648c4c97eeb4ddb2ebf8853d09bf08430f19aa550644790097",
+    "9a2d941d891bbf9c.tex": "b620d5d8e4f460fa48d121cddb3cddcbadb189600c65104f774d17a190e92731",
+    "b7aca08692f3da3e.tex": "236da68d73fbe4412da2f1286922665ef15c499e3bd0de2ee022253e7286d2d1",
+    "f279b76afd0f0a62.bin": "e30a9bd5530997dadebd5582a781c2eef163f1d8ae3325a8c778272cdede1a16",
+    "ASSETS\\RedMistBriar\\burger.scb": "18a7bd9abe123107d31e1b0e9c96190fc2266621a3c8d0d95aadc1558ae53414",
+    "ASSETS\\RedMistBriar\\burger.tex": "4711a1de284e7acece6576c8e75917cb138e069d83d81062cf5654c6956912bc",
+    "ASSETS\\Characters\\Briar\\Skins\\Base\\Briar_Base.skn": "61fb95e67a62ce730cc538d92a33e1d0b4758db6928a2d20d7f146a6a6a6b68d"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "Play_sfx_hud_Store_Buy": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_Store_Close": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_Store_Open": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_Store_Sell": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_Store_Undo": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_Store_Upgrade": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_Store_Click": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_Store_Select": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_Store_Undo": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_expand_open": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_filter_invert": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_filter_remove": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_filter_select": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_filter_stat_select": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_generic_close": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_generic_open": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_inventorytab_close": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_inventorytab_open": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_buy_basic": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_buy_components": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_buy_legendary": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_buy_mythic": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_buy_upgrade": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_hover_blue": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_hover_mythic": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_sell": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_item_with_debt": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_quicktab_close": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_quicktab_open/": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_quicktab_open_highlight": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_quicktab_pin": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_rec_select": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ],
+  "Play_sfx_hud_base_store_tab_select": [
+    "work\\c07-common-bin-native\\da13882526b44deb.bin"
+  ]
+}

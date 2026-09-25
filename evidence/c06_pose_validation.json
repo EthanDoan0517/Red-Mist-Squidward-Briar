@@ -1,0 +1,59 @@
+{
+  "status": "OFFLINE PASS; VISUAL REVIEW REQUIRED",
+  "model_sha256": "ea70f3aab9e1877f6be69419007cba7cd587bf37add213dfc9f9dc500f310be3",
+  "weights_indices_uvs_normals_finite": true,
+  "poses": [
+    {
+      "animation": "idle_frenzy",
+      "samples": [
+        {
+          "fraction": 0.2,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.8,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "animation": "attack1_frenzy",
+      "samples": [
+        {
+          "fraction": 0.2,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.8,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "animation": "spell2_attack",
+      "samples": [
+        {
+          "fraction": 0.2,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.8,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "limitation": "Native animation samples and final decoded textures; game material/VFX visibility and R lifecycle require gameplay."
+}

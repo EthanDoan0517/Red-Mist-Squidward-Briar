@@ -1,0 +1,67 @@
+{
+  "texture_source": "References\\spongebob-squarepants-squidward-model\\textures\\T_MP_Squidward_D.001.png",
+  "encoding": "DXT1 opaque, 1024x1024, complete 11-level mip chain, smallest first",
+  "creative_texture_edits": false,
+  "bloody_eyes": "native mesh UV assignment plus four head-weighted blood trails",
+  "mips": [
+    {
+      "level": 10,
+      "size": 1,
+      "bytes": 8
+    },
+    {
+      "level": 9,
+      "size": 2,
+      "bytes": 8
+    },
+    {
+      "level": 8,
+      "size": 4,
+      "bytes": 8
+    },
+    {
+      "level": 7,
+      "size": 8,
+      "bytes": 32
+    },
+    {
+      "level": 6,
+      "size": 16,
+      "bytes": 128
+    },
+    {
+      "level": 5,
+      "size": 32,
+      "bytes": 512
+    },
+    {
+      "level": 4,
+      "size": 64,
+      "bytes": 2048
+    },
+    {
+      "level": 3,
+      "size": 128,
+      "bytes": 8192
+    },
+    {
+      "level": 2,
+      "size": 256,
+      "bytes": 32768
+    },
+    {
+      "level": 1,
+      "size": 512,
+      "bytes": 131072
+    },
+    {
+      "level": 0,
+      "size": 1024,
+      "bytes": 524288
+    }
+  ],
+  "payloads": {
+    "0e35941cdacaff56.tex": "3e28a4192b71374bf5d1a41e9ef54cd5d8aa2b1c881407969ee5810aa8866895",
+    "ASSETS\\Characters\\Briar\\Skins\\Base\\Briar_Base.skn": "6ffba4d7eb32ce6027ba4773fb706b61f13a3e20b71f87fca8fb0f511d6c7fcf"
+  }
+}

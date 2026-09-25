@@ -1,0 +1,11 @@
+decoding C:\Users\etqdo\Downloads\Squidward briar\work\c08-audio-prepared\scream3.wem
+sample rate: 44100 Hz
+channels: 1
+channel mask: 0x4 / FC
+stream total samples: 356405 (0:08.082 seconds)
+encoding: Custom Vorbis
+layout: flat
+metadata from: Audiokinetic Wwise RIFF header
+bitrate: 72 kbps
+sample type: float
+play duration: 356405 samples (0:08.082 seconds)

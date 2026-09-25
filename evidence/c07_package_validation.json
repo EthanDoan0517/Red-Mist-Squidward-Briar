@@ -1,0 +1,56 @@
+{
+  "status": "OFFLINE VALIDATED; GAMEPLAY PENDING",
+  "package": "skin versions\\RedMist-Squidward-Briar-C07.fantome",
+  "sha256": "4cd12c369b7da9b40e6243f54ba26a58507af29837061d175c80db6b38d23af1",
+  "bytes": 4358796,
+  "wad_counts": {
+    "Briar.en_US.wad.client": 2,
+    "Briar.wad.client": 16,
+    "Common.wad.client": 2
+  },
+  "zip_crc": "PASS",
+  "native_path_hashes": "PASS",
+  "all_final_payloads_match_staging": "PASS",
+  "strict_SKN_BIN": "PASS",
+  "protected_C06_assets_unchanged": [
+    "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn",
+    "0e35941cdacaff56.tex",
+    "0ea451e749d9d041.tex",
+    "25a8846439092af3.tex",
+    "9a2d941d891bbf9c.tex",
+    "b7aca08692f3da3e.tex",
+    "ASSETS/RedMistBriar/burger.scb",
+    "ASSETS/RedMistBriar/burger.tex",
+    "ASSETS/RedMistBriar/boys_who_cry.tex",
+    "ASSETS/RedMistBriar/face_colors.tex",
+    "ASSETS/RedMistBriar/face_bloom_mask.tex"
+  ],
+  "manifests": {
+    "Briar.en_US.wad.client": {
+      "0bf1d74ba8e576a0.bnk": "9e5a95bf3b996fe397536bf83eba9ce501f202d8cb0f3e3d36d03d3d568f97ab",
+      "d3bb103ed206538d.wpk": "17bc91e1098760bb0eeddb1192eee33cbcd920f82fa21050c745e5c3a74ced80"
+    },
+    "Briar.wad.client": {
+      "0e35941cdacaff56.tex": "3942936b52c6ee8b3c416b241bbb9ec842c89dfb4e24ccd21b66bcc75fde041a",
+      "0ea451e749d9d041.tex": "c1fab0e792e97b62495ec126c12d0a8b631db4d2d68a58a7cbff5c838293e0be",
+      "25a8846439092af3.tex": "6fea8704ea90ff648c4c97eeb4ddb2ebf8853d09bf08430f19aa550644790097",
+      "9a2d941d891bbf9c.tex": "b620d5d8e4f460fa48d121cddb3cddcbadb189600c65104f774d17a190e92731",
+      "b7aca08692f3da3e.tex": "236da68d73fbe4412da2f1286922665ef15c499e3bd0de2ee022253e7286d2d1",
+      "f279b76afd0f0a62.bin": "b73e2197eedba5d98dcda4c633b64ba05f521d2e3150758e2710436f97e1de84",
+      "ASSETS/RedMistBriar/boys_who_cry.tex": "0b571abc4c798bc551faa7b832a81d1102298bed1a063ab2ca1dba7cf62ea8bd",
+      "ASSETS/RedMistBriar/burger.scb": "132fff9be87ec3c70b01a1d8093afc7a62d324c5d8003f6b3babf3e66e852db9",
+      "ASSETS/RedMistBriar/burger.tex": "4711a1de284e7acece6576c8e75917cb138e069d83d81062cf5654c6956912bc",
+      "ASSETS/RedMistBriar/face_bloom_mask.tex": "9910f3d051d70cb7a35245ff7bb1802e4779346b1a02c1e2735fd0b886258627",
+      "ASSETS/RedMistBriar/face_colors.tex": "6c08e2a35d483e73277f14619a368655eb51b780fe46776d67bc82a8e325c71f",
+      "ASSETS/RedMistBriar/red_flower.tex": "07c6da8fcf9990b3923e46ad0d9a56546f3d63114c69aa8a4863db0163b76fab",
+      "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn": "ea70f3aab9e1877f6be69419007cba7cd587bf37add213dfc9f9dc500f310be3",
+      "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_audio.bnk": "985aeb94d3bd1b3a7ec0d1cf8c0995960bed52f19edc20e1c29d1b33a48d1572",
+      "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_events.bnk": "44d6af14dc4f733d6648a93410b66aa64692efc607bbb8a9937a535aeacf6904",
+      "DATA/Characters/Briar/Animations/Skin0.bin": "6ad3915c91cd2cece28271a05cb3dc825f1d6214343790d59c5de1f10833699a"
+    },
+    "Common.wad.client": {
+      "ASSETS/Sounds/Wwise2016/SFX/Shared/HUD_Global_audio.bnk": "734f84338fe3b794aaa0eea5bca9c94a6e0324af9fe65285fc36ef462adb7c7c",
+      "ASSETS/Sounds/Wwise2016/SFX/Shared/HUD_Global_events.bnk": "3f5ce63c6f185e7c9f410928435a916b4a26c9701546a7e8aaeeb35d676ef1c1"
+    }
+  }
+}

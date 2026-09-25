@@ -1,0 +1,37 @@
+{
+  "status": "OFFLINE PASS",
+  "only_changed_assets": [
+    "f279b76afd0f0a62.bin",
+    "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn"
+  ],
+  "modified_clarinet_positions": 492,
+  "all_body_vertices_indices_materials_weights_uvs_normals_unchanged": true,
+  "textures_artwork_burger_mesh_unchanged": true,
+  "SKN_layout": {
+    "version": "4.1",
+    "vertices": 15461,
+    "indices": 80034,
+    "stride": 52,
+    "flags": 0,
+    "vertex_end": 964272,
+    "required_bytes": 964284,
+    "actual_bytes": 964284,
+    "footer_bytes": 12,
+    "complete": true
+  },
+  "BIN_strict_sizes": {
+    "bytes": 525075,
+    "entries": 63,
+    "checked_declared_sizes": 17030,
+    "fields": 25484,
+    "eof_exact": true
+  },
+  "R_projectile_emitter_count": 1,
+  "orientation": "World orientation, rotation disabled; authored bun is X/Z-horizontal and stack Y-up",
+  "scale": "constant, no squash",
+  "unchanged_other_BIN_entries": 62,
+  "main_timing_binding_position_texture_mesh_preserved": true,
+  "runtime_limit": "Actual engine world orientation and R cleanup require gameplay feedback",
+  "model_sha256": "61fb95e67a62ce730cc538d92a33e1d0b4758db6928a2d20d7f146a6a6a6b68d",
+  "bin_sha256": "e30a9bd5530997dadebd5582a781c2eef163f1d8ae3325a8c778272cdede1a16"
+}

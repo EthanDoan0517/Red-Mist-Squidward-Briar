@@ -1,0 +1,11 @@
+decoding C:\Users\etqdo\Downloads\Squidward briar\work\c05-audio-prepared\e_release.wem
+sample rate: 44100 Hz
+channels: 1
+channel mask: 0x4 / FC
+stream total samples: 112322 (0:02.547 seconds)
+encoding: Custom Vorbis
+layout: flat
+metadata from: Audiokinetic Wwise RIFF header
+bitrate: 74 kbps
+sample type: float
+play duration: 112322 samples (0:02.547 seconds)

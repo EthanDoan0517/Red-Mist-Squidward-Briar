@@ -1,0 +1,27 @@
+{
+  "status": "OFFLINE VALIDATED; GAMEPLAY PENDING",
+  "package": "skin versions\\RedMist-Squidward-Briar-C05.fantome",
+  "sha256": "4d18231d76578447cdd98191efedc05a678e45a9c1d6b93e144bdccf2fa81704",
+  "bytes": 3245887,
+  "wad_payloads": 13,
+  "zip_crc": "PASS",
+  "native_path_hashes": "PASS",
+  "extracted_payload_equality": "PASS",
+  "strict_SKN_footer_and_BIN_sizes": "PASS",
+  "manifest": {
+    "0e35941cdacaff56.tex": "3942936b52c6ee8b3c416b241bbb9ec842c89dfb4e24ccd21b66bcc75fde041a",
+    "0ea451e749d9d041.tex": "c1fab0e792e97b62495ec126c12d0a8b631db4d2d68a58a7cbff5c838293e0be",
+    "25a8846439092af3.tex": "6fea8704ea90ff648c4c97eeb4ddb2ebf8853d09bf08430f19aa550644790097",
+    "9a2d941d891bbf9c.tex": "b620d5d8e4f460fa48d121cddb3cddcbadb189600c65104f774d17a190e92731",
+    "b7aca08692f3da3e.tex": "236da68d73fbe4412da2f1286922665ef15c499e3bd0de2ee022253e7286d2d1",
+    "f279b76afd0f0a62.bin": "a0c90180d5de55ca261caef465179962f0b5537b0350c22baef55b2bbb5abfc9",
+    "ASSETS/RedMistBriar/burger.scb": "132fff9be87ec3c70b01a1d8093afc7a62d324c5d8003f6b3babf3e66e852db9",
+    "ASSETS/RedMistBriar/burger.tex": "4711a1de284e7acece6576c8e75917cb138e069d83d81062cf5654c6956912bc",
+    "ASSETS/RedMistBriar/face_colors.tex": "6c08e2a35d483e73277f14619a368655eb51b780fe46776d67bc82a8e325c71f",
+    "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn": "98a7945381f8a26ea54e7c6793a61756599231862d8c08cef679e51fcb56e7ad",
+    "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_audio.bnk": "2445fdb1a2e96554f991230e1f275dd3544224e5d95d83686094a1e24b747f4c",
+    "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_events.bnk": "52ae4685d091f3078f9d1702b1394e93a517102d0b817cf978d695d137c4ff8c",
+    "DATA/Characters/Briar/Animations/Skin0.bin": "6f333fa5d097480e43f006df251e7b38fd1d7debefadff78a461fc1c12e21674"
+  },
+  "runtime": "C02 load user confirmed; C05 not tested"
+}

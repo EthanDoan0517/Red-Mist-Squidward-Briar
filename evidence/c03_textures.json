@@ -1,0 +1,22 @@
+[
+  {
+    "path": "0ea451e749d9d041.tex",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "DXT1",
+    "mip_count": 10,
+    "decoded": "PASS"
+  },
+  {
+    "path": "ASSETS\\RedMistBriar\\burger.tex",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "format": "DXT1",
+    "mip_count": 11,
+    "decoded": "PASS"
+  }
+]

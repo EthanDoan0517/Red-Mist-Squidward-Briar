@@ -1,0 +1,18 @@
+{
+  "body_source": "work\\c05\\body-gray-atlas.png",
+  "body_source_sha256": "860cc8a627537a82ab104f30b40b664a293c33f2bf666eaf2a966908fe7ab963",
+  "body_format": "DXT1 1024x1024,11mips",
+  "face_format": "BGRA8 64x8 exact material constants",
+  "palette": [
+    "000000",
+    "fe4e4a",
+    "ee6054",
+    "ffffff",
+    "650021",
+    "62432f",
+    "cac6cf",
+    "000000"
+  ],
+  "reference": "References/ref image squidward.png",
+  "body_method": "ImageGen color-only UV atlas edit; source preserved"
+}

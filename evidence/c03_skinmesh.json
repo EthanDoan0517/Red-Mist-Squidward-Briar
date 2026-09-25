@@ -1,0 +1,122 @@
+{
+  "hash": "skinMeshProperties",
+  "type": "EMBED",
+  "hash_type": "SkinMeshDataProperties",
+  "data": [
+    {
+      "hash": "skeleton",
+      "type": "STRING",
+      "data": "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skl"
+    },
+    {
+      "hash": "simpleSkin",
+      "type": "STRING",
+      "data": "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn"
+    },
+    {
+      "hash": "texture",
+      "type": "FILE",
+      "data": "0e35941cdacaff56"
+    },
+    {
+      "hash": "skinScale",
+      "type": "F32",
+      "data": 1.149999976158142
+    },
+    {
+      "hash": "selfIllumination",
+      "type": "F32",
+      "data": 0.5
+    },
+    {
+      "hash": "reflectionFresnelColor",
+      "type": "RGBA",
+      "data": [
+        0,
+        0,
+        0,
+        255
+      ]
+    },
+    {
+      "hash": "initialSubmeshToHide",
+      "type": "STRING",
+      "data": "HeadFrenzy FrenzyDaggers"
+    },
+    {
+      "hash": "materialOverride",
+      "type": "LIST",
+      "value_type": "EMBED",
+      "data": [
+        {
+          "hash": null,
+          "type": "EMBED",
+          "hash_type": "SkinMeshDataProperties_MaterialOverride",
+          "data": [
+            {
+              "hash": "texture",
+              "type": "FILE",
+              "data": "0ea451e749d9d041"
+            },
+            {
+              "hash": "submesh",
+              "type": "STRING",
+              "data": "ShacklePieces"
+            }
+          ]
+        },
+        {
+          "hash": null,
+          "type": "EMBED",
+          "hash_type": "SkinMeshDataProperties_MaterialOverride",
+          "data": [
+            {
+              "hash": "texture",
+              "type": "FILE",
+              "data": "0ea451e749d9d041"
+            },
+            {
+              "hash": "submesh",
+              "type": "STRING",
+              "data": "FrenzyDaggers"
+            }
+          ]
+        },
+        {
+          "hash": null,
+          "type": "EMBED",
+          "hash_type": "SkinMeshDataProperties_MaterialOverride",
+          "data": [
+            {
+              "hash": "texture",
+              "type": "FILE",
+              "data": "0ea451e749d9d041"
+            },
+            {
+              "hash": "submesh",
+              "type": "STRING",
+              "data": "ShackleBlades"
+            }
+          ]
+        },
+        {
+          "hash": null,
+          "type": "EMBED",
+          "hash_type": "SkinMeshDataProperties_MaterialOverride",
+          "data": [
+            {
+              "hash": "texture",
+              "type": "FILE",
+              "data": "0ea451e749d9d041"
+            },
+            {
+              "hash": "submesh",
+              "type": "STRING",
+              "data": "Crystal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1938 @@
+{
+  "custom": {
+    "E": {
+      "event": "Play_sfx_Briar_BriarEMis_missilecast",
+      "media_id": 736091677
+    },
+    "walking": {
+      "event": "Play_sfx_RedMistBriar_Step",
+      "media_id": 1477413201
+    },
+    "death": {
+      "event": "Play_sfx_RedMistBriar_Death",
+      "media_id": 2805924193,
+      "DeathSound": 1727772221,
+      "DeathPlayAction": 2990483768,
+      "DeathEvent": 4235614119
+    }
+  },
+  "native_sfx": [
+    {
+      "sound_id": 579154023,
+      "media_id": 1031142931,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 814768109,
+      "media_id": 804271558,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 149287641,
+      "media_id": 185210668,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 290797096,
+      "media_id": 807751399,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 283881045,
+      "media_id": 1066828375,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 103803969,
+      "media_id": 104094461,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 510909702,
+      "media_id": 249823804,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 629078247,
+      "media_id": 336855958,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 844842979,
+      "media_id": 36546202,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 323957406,
+      "media_id": 975454622,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 544164590,
+      "media_id": 829747541,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 572304773,
+      "media_id": 52706850,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 693057640,
+      "media_id": 114262673,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 721640263,
+      "media_id": 106608387,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 835023226,
+      "media_id": 96573516,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 13065188,
+      "media_id": 1057816647,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 187259811,
+      "media_id": 550342467,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 233701145,
+      "media_id": 12647607,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 248863770,
+      "media_id": 327512312,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 321754324,
+      "media_id": 673565142,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 378801849,
+      "media_id": 140790641,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 401173694,
+      "media_id": 590304255,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 636330650,
+      "media_id": 1029052334,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 709748308,
+      "media_id": 991283023,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 839077337,
+      "media_id": 937087942,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1006241940,
+      "media_id": 526357828,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1023408093,
+      "media_id": 14388814,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 461892222,
+      "media_id": 387451397,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 99210926,
+      "media_id": 386452778,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 885162034,
+      "media_id": 796974254,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 326203150,
+      "media_id": 804271558,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 953586762,
+      "media_id": 395517624,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 194234430,
+      "media_id": 346967776,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 882180777,
+      "media_id": 977937509,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 130059983,
+      "media_id": 284225614,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 150116674,
+      "media_id": 111942398,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 493543574,
+      "media_id": 390452907,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 592119105,
+      "media_id": 43677989,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 530863573,
+      "media_id": 70560781,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 530931000,
+      "media_id": 64164795,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 888406193,
+      "media_id": 191597392,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 974637175,
+      "media_id": 32396486,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 193834230,
+      "media_id": 408675584,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 313537918,
+      "media_id": 76517695,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 777898519,
+      "media_id": 130160735,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 890251391,
+      "media_id": 310498734,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 13558507,
+      "media_id": 231841782,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 248241022,
+      "media_id": 34203792,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 594777022,
+      "media_id": 309960044,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 870282471,
+      "media_id": 181046112,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 675665925,
+      "media_id": 637934841,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 310238375,
+      "media_id": 530919773,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 331708760,
+      "media_id": 19611527,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 436896318,
+      "media_id": 932071851,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 496816785,
+      "media_id": 989498368,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 84192703,
+      "media_id": 337039456,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 286805836,
+      "media_id": 275742538,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 624784937,
+      "media_id": 320610712,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 950184793,
+      "media_id": 414523161,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 270075367,
+      "media_id": 191597392,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 670297648,
+      "media_id": 70560781,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 719594811,
+      "media_id": 32396486,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1062992322,
+      "media_id": 64164795,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 308194809,
+      "media_id": 43677989,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 937677676,
+      "media_id": 390452907,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 944181322,
+      "media_id": 111942398,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 953236306,
+      "media_id": 284225614,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 324801507,
+      "media_id": 76517695,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 475053392,
+      "media_id": 310498734,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 825756736,
+      "media_id": 130160735,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1047462680,
+      "media_id": 408675584,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 422197813,
+      "media_id": 181046112,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 842186469,
+      "media_id": 309960044,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 854441120,
+      "media_id": 231841782,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 871743734,
+      "media_id": 34203792,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 268183894,
+      "media_id": 721212223,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 417858642,
+      "media_id": 954423942,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 622480855,
+      "media_id": 664570177,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 982638594,
+      "media_id": 168061573,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 220547291,
+      "media_id": 275742538,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 346448105,
+      "media_id": 337039456,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 715990450,
+      "media_id": 320610712,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1066776505,
+      "media_id": 414523161,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 579840060,
+      "media_id": 954423942,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 628877839,
+      "media_id": 721212223,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 659364504,
+      "media_id": 168061573,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 746152960,
+      "media_id": 664570177,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 391564261,
+      "media_id": 606436880,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 475422276,
+      "media_id": 856453498,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 570126408,
+      "media_id": 1010813170,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 811976862,
+      "media_id": 82656728,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 102540457,
+      "media_id": 932071851,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 344579537,
+      "media_id": 19611527,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 486098232,
+      "media_id": 989498368,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 714112947,
+      "media_id": 530919773,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 260858359,
+      "media_id": 549156362,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 356195998,
+      "media_id": 637934841,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 379311676,
+      "media_id": 111684265,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 454078647,
+      "media_id": 625915167,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 254982503,
+      "media_id": 346967776,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 949261014,
+      "media_id": 977937509,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 17973297,
+      "media_id": 32396486,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 455189117,
+      "media_id": 70560781,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 889242596,
+      "media_id": 191597392,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1031803877,
+      "media_id": 64164795,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 80007039,
+      "media_id": 76517695,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 305665042,
+      "media_id": 130160735,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 384805682,
+      "media_id": 310498734,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 815320217,
+      "media_id": 408675584,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 530863270,
+      "media_id": 181046112,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 620937174,
+      "media_id": 34203792,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 830982842,
+      "media_id": 231841782,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 901773144,
+      "media_id": 309960044,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 320552953,
+      "media_id": 284225614,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 360863281,
+      "media_id": 390452907,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 471456118,
+      "media_id": 111942398,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 635137487,
+      "media_id": 43677989,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 143261601,
+      "media_id": 606436880,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 373661355,
+      "media_id": 856453498,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 465300589,
+      "media_id": 1010813170,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 976005137,
+      "media_id": 82656728,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 872376651,
+      "media_id": 463314778,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 928233542,
+      "media_id": 438296832,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 231456596,
+      "media_id": 779620718,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 901133833,
+      "media_id": 909947395,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1008392373,
+      "media_id": 1021663647,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 753176678,
+      "media_id": 484361502,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 132318693,
+      "media_id": 743637258,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 943989911,
+      "media_id": 11023479,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 20884717,
+      "media_id": 699304794,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 581295684,
+      "media_id": 253409860,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 240879798,
+      "media_id": 701791218,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 745144829,
+      "media_id": 400504619,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 968522603,
+      "media_id": 342737364,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 98345299,
+      "media_id": 662968307,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 455091509,
+      "media_id": 712002047,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 2814374,
+      "media_id": 804762565,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 275593019,
+      "media_id": 769049981,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 134135084,
+      "media_id": 319889801,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 404860998,
+      "media_id": 736091677,
+      "state": "custom_E"
+    },
+    {
+      "sound_id": 912834199,
+      "media_id": 507172420,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 759933412,
+      "media_id": 939574918,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1043121981,
+      "media_id": 484072403,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 438901333,
+      "media_id": 751954609,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 646127363,
+      "media_id": 733756885,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 185279104,
+      "media_id": 879257785,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 235909882,
+      "media_id": 242189065,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 496385903,
+      "media_id": 133637003,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 183233626,
+      "media_id": 506927118,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 338440123,
+      "media_id": 37049188,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 394896412,
+      "media_id": 573088253,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 411642188,
+      "media_id": 984385668,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 298060221,
+      "media_id": 397557461,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 233479440,
+      "media_id": 980012549,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 368329258,
+      "media_id": 588336155,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 347149749,
+      "media_id": 695965516,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 39843996,
+      "media_id": 104094461,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 83450507,
+      "media_id": 249823804,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 205424058,
+      "media_id": 36546202,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 862150128,
+      "media_id": 336855958,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 502792574,
+      "media_id": 91671801,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 511783754,
+      "media_id": 509331730,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 68055663,
+      "media_id": 278118987,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 92987616,
+      "media_id": 746882258,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 608550491,
+      "media_id": 1068437254,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 216283852,
+      "media_id": 371292724,
+      "state": "silent_native"
+    },
+    {
+      "sound_id": 1472003245,
+      "media_id": 1477413201,
+      "state": "custom_step"
+    }
+  ],
+  "native_voice": [
+    {
+      "sound_id": 324274736,
+      "media_id": 748080020,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 375688763,
+      "media_id": 409696526,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 430404963,
+      "media_id": 818069108,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 536750250,
+      "media_id": 1043384537,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 546952684,
+      "media_id": 949789118,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 628396085,
+      "media_id": 973364592,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 646326126,
+      "media_id": 968000084,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 802172552,
+      "media_id": 389379105,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 810707959,
+      "media_id": 573180832,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 851879934,
+      "media_id": 13016981,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1055534698,
+      "media_id": 65277631,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 819919309,
+      "media_id": 1053113684,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 43940250,
+      "media_id": 583821561,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 752452437,
+      "media_id": 557510553,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 134482061,
+      "media_id": 508698498,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 797871215,
+      "media_id": 125747572,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 101406140,
+      "media_id": 952355956,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 161564829,
+      "media_id": 864556338,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 207429644,
+      "media_id": 371331112,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 346564831,
+      "media_id": 1008056281,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 375503653,
+      "media_id": 224597980,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 478594826,
+      "media_id": 774038916,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 527649595,
+      "media_id": 130386381,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 625984195,
+      "media_id": 464801705,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 634585382,
+      "media_id": 1003168293,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 686533287,
+      "media_id": 74152640,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 757306089,
+      "media_id": 650125862,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 790296247,
+      "media_id": 900080973,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 835083315,
+      "media_id": 1070130243,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 973245784,
+      "media_id": 35915392,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 990333990,
+      "media_id": 256991505,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 27475918,
+      "media_id": 527035833,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 475905152,
+      "media_id": 175392622,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 43183079,
+      "media_id": 349234436,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 56710653,
+      "media_id": 329897748,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 10923655,
+      "media_id": 717634086,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 142891102,
+      "media_id": 590169268,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 556559042,
+      "media_id": 474413990,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 974197370,
+      "media_id": 146146123,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 438003956,
+      "media_id": 949345890,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 989997719,
+      "media_id": 253803824,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 799056219,
+      "media_id": 1016294634,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 592827991,
+      "media_id": 232204694,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 226510548,
+      "media_id": 957750967,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 677535766,
+      "media_id": 491878802,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 785621251,
+      "media_id": 159096933,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 284292599,
+      "media_id": 968848030,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 939155877,
+      "media_id": 651383297,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1051559950,
+      "media_id": 358203707,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 723359468,
+      "media_id": 92684139,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 549210279,
+      "media_id": 79850005,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 586098347,
+      "media_id": 880075973,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 597065451,
+      "media_id": 152228513,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 987123943,
+      "media_id": 610399772,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 322264749,
+      "media_id": 498852621,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 17545844,
+      "media_id": 280144929,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 81212569,
+      "media_id": 83430804,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 491119128,
+      "media_id": 889723010,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 630929193,
+      "media_id": 959641131,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 956767175,
+      "media_id": 809327785,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 965103172,
+      "media_id": 667012111,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1009145896,
+      "media_id": 334341677,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 150117206,
+      "media_id": 152228513,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 413556809,
+      "media_id": 880075973,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 580439392,
+      "media_id": 610399772,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 691565178,
+      "media_id": 79850005,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 948031473,
+      "media_id": 498852621,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 185803304,
+      "media_id": 92684139,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 860962667,
+      "media_id": 192253755,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 935040726,
+      "media_id": 414477910,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 984391,
+      "media_id": 1037129028,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 18321616,
+      "media_id": 425848296,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 307288459,
+      "media_id": 254103853,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 489809690,
+      "media_id": 437096248,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 608282603,
+      "media_id": 216158304,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 938655483,
+      "media_id": 592197473,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 116731131,
+      "media_id": 361732211,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 696027694,
+      "media_id": 151163488,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 788965258,
+      "media_id": 373801188,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 834463994,
+      "media_id": 107071712,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 906346919,
+      "media_id": 174203112,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 48066701,
+      "media_id": 322943938,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1043567457,
+      "media_id": 795968502,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 446698825,
+      "media_id": 373779170,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1064358766,
+      "media_id": 766431436,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 206507380,
+      "media_id": 295162265,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 257839062,
+      "media_id": 474440400,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 401272123,
+      "media_id": 157856500,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 455805624,
+      "media_id": 801895782,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 589400329,
+      "media_id": 393861535,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 706514647,
+      "media_id": 182973449,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 133871567,
+      "media_id": 852041576,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 198192321,
+      "media_id": 1011162143,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 166383681,
+      "media_id": 86407764,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 192719164,
+      "media_id": 26026758,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 224154318,
+      "media_id": 469950670,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 227298176,
+      "media_id": 344822702,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 811535716,
+      "media_id": 872597205,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 31045703,
+      "media_id": 783890390,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 218448084,
+      "media_id": 353954255,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 724319162,
+      "media_id": 296067775,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 988603735,
+      "media_id": 926941467,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 697490069,
+      "media_id": 711994501,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 609621682,
+      "media_id": 792582196,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 232654711,
+      "media_id": 531530942,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 332150770,
+      "media_id": 887028047,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 338398068,
+      "media_id": 862213211,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 709525939,
+      "media_id": 37015504,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 990182437,
+      "media_id": 42164240,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 409995683,
+      "media_id": 313536655,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 913642653,
+      "media_id": 857487434,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 226836203,
+      "media_id": 430076700,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 540843660,
+      "media_id": 862657163,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 603711699,
+      "media_id": 901003498,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 825169331,
+      "media_id": 207834935,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1052202482,
+      "media_id": 190201825,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 253062168,
+      "media_id": 923838246,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 705321901,
+      "media_id": 85482115,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 816003524,
+      "media_id": 906716586,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 625852055,
+      "media_id": 50845381,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1056848371,
+      "media_id": 776138981,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 493323941,
+      "media_id": 188387561,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 643217967,
+      "media_id": 705615463,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 21183483,
+      "media_id": 153945445,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 576535519,
+      "media_id": 518184773,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 908345356,
+      "media_id": 171182229,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1043949143,
+      "media_id": 265259526,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 13774911,
+      "media_id": 776138981,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1026867003,
+      "media_id": 906716586,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1052758492,
+      "media_id": 50845381,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 457622617,
+      "media_id": 373695394,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 497702136,
+      "media_id": 322214465,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 369200298,
+      "media_id": 258505943,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 660352212,
+      "media_id": 269022350,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 933531991,
+      "media_id": 719128448,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 1023870403,
+      "media_id": 73714699,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 197614588,
+      "media_id": 649108379,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 311787704,
+      "media_id": 401276562,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 497225427,
+      "media_id": 878976584,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 770972867,
+      "media_id": 371714411,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 940950684,
+      "media_id": 1040166213,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 404241244,
+      "media_id": 560412760,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 305220449,
+      "media_id": 689087434,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 60179366,
+      "media_id": 912339945,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 128513408,
+      "media_id": 612497123,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 163888618,
+      "media_id": 636996027,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 177080039,
+      "media_id": 421599705,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 183937742,
+      "media_id": 523891021,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 221654630,
+      "media_id": 1029885315,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 269255444,
+      "media_id": 227433706,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 386317815,
+      "media_id": 860831,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 470194991,
+      "media_id": 259417083,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 548877379,
+      "media_id": 254549983,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 556195127,
+      "media_id": 470557531,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 667767248,
+      "media_id": 263175136,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 696204545,
+      "media_id": 168045430,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 736360830,
+      "media_id": 443532980,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 782237165,
+      "media_id": 350779616,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 791475952,
+      "media_id": 510174383,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 800742266,
+      "media_id": 743872076,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 18568390,
+      "media_id": 57223476,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 253472576,
+      "media_id": 931820733,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 395131938,
+      "media_id": 441159915,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 596146593,
+      "media_id": 953458900,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 117128885,
+      "media_id": 967687722,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 685401232,
+      "media_id": 444827524,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 860748968,
+      "media_id": 373443339,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 627057047,
+      "media_id": 212524596,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 785480968,
+      "media_id": 331329258,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 40048411,
+      "media_id": 990378566,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 953168884,
+      "media_id": 217461946,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 763530931,
+      "media_id": 966742733,
+      "state": "silent_native_voice"
+    },
+    {
+      "sound_id": 186752384,
+      "media_id": 655069642,
+      "state": "silent_native_voice"
+    }
+  ],
+  "disabled_voice_events": [
+    {
+      "event_id": 11265968,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 84832733,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 154421224,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 201698729,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 286409570,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 460928354,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 660848939,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 938522234,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 976131708,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1011815328,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1244373047,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1339416229,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1340801058,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1413396189,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1509738186,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1552882253,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1769174504,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1926619005,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 1935117934,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2012912465,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2100415738,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2214605271,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2255166585,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2349456808,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2505990788,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2609962115,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2633706934,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2650088551,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2684704874,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2737102358,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2759780805,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2809067326,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2810988637,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2980905246,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2985663255,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 2987278249,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3046414299,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3123922814,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3201498620,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3369363631,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3371020760,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3458780408,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3487860622,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3513961899,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3524667619,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3641696100,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3775327039,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 3789218528,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 4037733169,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 4156168247,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 4173084727,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 4255778092,
+      "native_action_count": 1
+    },
+    {
+      "event_id": 4270998509,
+      "native_action_count": 1
+    }
+  ],
+  "future_replacement": "Choose native event/media IDs here; replace silent media and restore the native voice Event action list when enabling a VO slot. Original banks remain work/original and work/original-voice."
+}

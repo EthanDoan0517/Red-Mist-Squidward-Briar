@@ -1,0 +1,32 @@
+{
+  "vertices": 14969,
+  "triangles": 25918,
+  "eye_vertices": 370,
+  "pupil_vertices": 98,
+  "bounds": [
+    [
+      -58.89570999145508,
+      6.047913551330566,
+      -25.4197940826416
+    ],
+    [
+      58.897769927978516,
+      211.2397003173828,
+      28.59325408935547
+    ]
+  ],
+  "skeleton": "source bytes unchanged",
+  "submeshes": [
+    "Body"
+  ],
+  "pillory": "no shackle/crystal/dagger/head-swap geometry exported",
+  "method": "source skin weights mapped to native Briar bind joints; four tentacle legs map to two native leg chains",
+  "red_uv": [
+    0.165,
+    0.785
+  ],
+  "black_uv": [
+    0.925,
+    0.54
+  ]
+}

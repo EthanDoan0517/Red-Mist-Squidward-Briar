@@ -1,0 +1,49 @@
+{
+  "inherits": "evidence/c06_audio_replacement_map.json",
+  "shop": {
+    "Play_sfx_hud_Store_Buy": {
+      "event": 1989001022,
+      "action": 246810958,
+      "sound": 1048964796,
+      "media": 41429280
+    },
+    "Play_sfx_hud_Store_Upgrade": {
+      "event": 1504941814,
+      "action": 463200912,
+      "sound": 352722303,
+      "media": 41429280
+    }
+  },
+  "laugh": {
+    "LaughSound": 406463542,
+    "LaughPlayAction": 3214104057,
+    "LaughStopAction": 787980883,
+    "LaughMedia": 3599654839,
+    "LaughEvent": 2023201858,
+    "LaughStopEvent": 1274732376
+  },
+  "clips": [
+    {
+      "role": "buy",
+      "source": "References\\Audio\\becauseimalloutofmoney, whenever you buy something from the shop.wav",
+      "source_sha256": "76249a7d4d836e6354206c8ab8f4400045d1c84634ad409cc43e9d47a724b8a0",
+      "full_clip_preserved": true,
+      "duration_seconds": 9.845011337868481,
+      "channels": 2,
+      "rate": 44100,
+      "Wwise_Vorbis_sha256": "cb635e2f847c1df4e925886155d0afa8369cba051f6b2de1cc2022421598ae80",
+      "decoded_peak_dbfs": -5.5380409455678015
+    },
+    {
+      "role": "laugh",
+      "source": "References\\Audio\\fuuuutureeee, play during briar laugh.wav",
+      "source_sha256": "f36da39623f26ed033b2faaf82181ccf53219bf40496a95ac5456438b1bc4664",
+      "full_clip_preserved": true,
+      "duration_seconds": 14.6940589569161,
+      "channels": 1,
+      "rate": 44100,
+      "Wwise_Vorbis_sha256": "275aea76f75b9d543ec462797a3af28ccaa65fbde39e61a0802308090f3f88fe",
+      "decoded_peak_dbfs": -5.772362486019942
+    }
+  ]
+}

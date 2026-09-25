@@ -1,0 +1,917 @@
+Warning: pyRitoFile.wad failed to import pyzstd, xxhash.
+Briar_Base_R_warning Blend_FLoor {
+ "hash": null,
+ "type": "POINTER",
+ "hash_type": "VfxEmitterDefinitionData",
+ "data": [
+  {
+   "hash": "rate",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 1.0
+    }
+   ]
+  },
+  {
+   "hash": "particleLifetime",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 10.0
+    }
+   ]
+  },
+  {
+   "hash": "particleLinger",
+   "type": "OPTION",
+   "data": 1.0
+  },
+  {
+   "hash": "lifetime",
+   "type": "OPTION",
+   "data": 9.0
+  },
+  {
+   "hash": "isSingleParticle",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "emitterName",
+   "type": "STRING",
+   "data": "Blend_FLoor"
+  },
+  {
+   "hash": "bindWeight",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 1.0
+    }
+   ]
+  },
+  {
+   "hash": "primitive",
+   "type": "POINTER",
+   "hash_type": "VfxPrimitiveArbitraryQuad",
+   "data": []
+  },
+  {
+   "hash": "blendMode",
+   "type": "U8",
+   "data": 1
+  },
+  {
+   "hash": "birthColor",
+   "type": "EMBED",
+   "hash_type": "ValueColor",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC4",
+     "data": [
+      0.2699931263923645,
+      0.0,
+      0.0,
+      0.3000076413154602
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "Color",
+   "type": "EMBED",
+   "hash_type": "ValueColor",
+   "data": [
+    {
+     "hash": "dynamics",
+     "type": "POINTER",
+     "hash_type": "VfxAnimatedColorVariableData",
+     "data": [
+      {
+       "hash": "times",
+       "type": "LIST",
+       "value_type": "F32",
+       "data": [
+        0.0,
+        0.10000000149011612,
+        0.5,
+        0.800000011920929,
+        1.0
+       ]
+      },
+      {
+       "hash": "values",
+       "type": "LIST",
+       "value_type": "VEC4",
+       "data": [
+        [
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "pass",
+   "type": "I16",
+   "data": -2000
+  },
+  {
+   "hash": "alphaRef",
+   "type": "U8",
+   "data": 0
+  },
+  {
+   "hash": "disableBackfaceCull",
+   "type": "BOOL",
+   "data": true
+  },
+  {
+   "hash": "miscRenderFlags",
+   "type": "U8",
+   "data": 1
+  },
+  {
+   "hash": "isUniformScale",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "isRotationEnabled",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "isGroundLayer",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "birthRotation0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      90.0,
+      180.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "birthRotationalVelocity0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      0.0,
+      5.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "birthScale0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      500.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "scale0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      1.5499999523162842,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "hash": "dynamics",
+     "type": "POINTER",
+     "hash_type": "VfxAnimatedVector3fVariableData",
+     "data": [
+      {
+       "hash": "times",
+       "type": "LIST",
+       "value_type": "F32",
+       "data": [
+        0.0,
+        0.019999999552965164,
+        1.0
+       ]
+      },
+      {
+       "hash": "values",
+       "type": "LIST",
+       "value_type": "VEC3",
+       "data": [
+        [
+         0.7749999761581421,
+         0.0,
+         0.0
+        ],
+        [
+         1.5499999523162842,
+         1.0,
+         1.0
+        ],
+        [
+         1.5499999523162842,
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "texture",
+   "type": "STRING",
+   "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Generic_GroundBaseLayer.tex"
+  },
+  {
+   "hash": "uvRotation",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 90.0
+    }
+   ]
+  },
+  {
+   "hash": "textureMult",
+   "type": "POINTER",
+   "hash_type": "VfxTextureMultDefinitionData",
+   "data": [
+    {
+     "hash": "textureMult",
+     "type": "STRING",
+     "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_E_Proj_Secondary_alpha1.tex"
+    },
+    {
+     "hash": "uvScaleMult",
+     "type": "EMBED",
+     "hash_type": "ValueVector2",
+     "data": [
+      {
+       "hash": "constantValue",
+       "type": "VEC2",
+       "data": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      }
+     ]
+    },
+    {
+     "hash": "birthUvScrollRateMult",
+     "type": "EMBED",
+     "hash_type": "ValueVector2",
+     "data": [
+      {
+       "hash": "constantValue",
+       "type": "VEC2",
+       "data": [
+        0.0,
+        0.15000000596046448
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
+Briar_Base_R_AoE CenterRing {
+ "hash": null,
+ "type": "POINTER",
+ "hash_type": "VfxEmitterDefinitionData",
+ "data": [
+  {
+   "hash": "rate",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 1.0
+    }
+   ]
+  },
+  {
+   "hash": "particleLifetime",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 0.8999999761581421
+    }
+   ]
+  },
+  {
+   "hash": "particleLinger",
+   "type": "OPTION",
+   "data": 0.8999999761581421
+  },
+  {
+   "hash": "lifetime",
+   "type": "OPTION",
+   "data": 1.0
+  },
+  {
+   "hash": "isSingleParticle",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "emitterName",
+   "type": "STRING",
+   "data": "CenterRing"
+  },
+  {
+   "hash": "importance",
+   "type": "U8",
+   "data": 3
+  },
+  {
+   "hash": "bindWeight",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 1.0
+    }
+   ]
+  },
+  {
+   "hash": "EmitterPosition",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      0.0,
+      5.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "primitive",
+   "type": "POINTER",
+   "hash_type": "VfxPrimitiveArbitraryQuad",
+   "data": []
+  },
+  {
+   "hash": "particleColorTexture",
+   "type": "STRING",
+   "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_color-bombground.tex"
+  },
+  {
+   "hash": "blendMode",
+   "type": "U8",
+   "data": 4
+  },
+  {
+   "hash": "birthColor",
+   "type": "EMBED",
+   "hash_type": "ValueColor",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC4",
+     "data": [
+      1.0,
+      1.0,
+      1.0,
+      0.4800030589103699
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "pass",
+   "type": "I16",
+   "data": 50
+  },
+  {
+   "hash": "meshRenderFlags",
+   "type": "U8",
+   "data": 0
+  },
+  {
+   "hash": "colorLookUpTypeY",
+   "type": "U8",
+   "data": 3
+  },
+  {
+   "hash": "alphaRef",
+   "type": "U8",
+   "data": 0
+  },
+  {
+   "hash": "miscRenderFlags",
+   "type": "U8",
+   "data": 1
+  },
+  {
+   "hash": "isUniformScale",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "isGroundLayer",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "useNavmeshMask",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "birthRotation0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      -90.0,
+      0.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "birthScale0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      1000.0,
+      900.0,
+      900.0
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "texture",
+   "type": "STRING",
+   "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+  }
+ ]
+}
+Briar_Base_R_AoE Ground_Scorch {
+ "hash": null,
+ "type": "POINTER",
+ "hash_type": "VfxEmitterDefinitionData",
+ "data": [
+  {
+   "hash": "rate",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 3.0
+    }
+   ]
+  },
+  {
+   "hash": "particleLifetime",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 0.30000001192092896
+    }
+   ]
+  },
+  {
+   "hash": "particleLinger",
+   "type": "OPTION",
+   "data": 2.0
+  },
+  {
+   "hash": "lifetime",
+   "type": "OPTION",
+   "data": 1.0
+  },
+  {
+   "hash": "isSingleParticle",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "emitterName",
+   "type": "STRING",
+   "data": "Ground_Scorch"
+  },
+  {
+   "hash": "importance",
+   "type": "U8",
+   "data": 3
+  },
+  {
+   "hash": "bindWeight",
+   "type": "EMBED",
+   "hash_type": "ValueFloat",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "F32",
+     "data": 1.0
+    }
+   ]
+  },
+  {
+   "hash": "primitive",
+   "type": "POINTER",
+   "hash_type": "VfxPrimitiveArbitraryQuad",
+   "data": []
+  },
+  {
+   "hash": "blendMode",
+   "type": "U8",
+   "data": 4
+  },
+  {
+   "hash": "Color",
+   "type": "EMBED",
+   "hash_type": "ValueColor",
+   "data": [
+    {
+     "hash": "dynamics",
+     "type": "POINTER",
+     "hash_type": "VfxAnimatedColorVariableData",
+     "data": [
+      {
+       "hash": "times",
+       "type": "LIST",
+       "value_type": "F32",
+       "data": [
+        0.0,
+        0.5,
+        1.0
+       ]
+      },
+      {
+       "hash": "values",
+       "type": "LIST",
+       "value_type": "VEC4",
+       "data": [
+        [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         0.0
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "pass",
+   "type": "I16",
+   "data": -10
+  },
+  {
+   "hash": "meshRenderFlags",
+   "type": "U8",
+   "data": 0
+  },
+  {
+   "hash": "alphaRef",
+   "type": "U8",
+   "data": 0
+  },
+  {
+   "hash": "alphaErosionDefinition",
+   "type": "POINTER",
+   "hash_type": "VfxAlphaErosionDefinitionData",
+   "data": [
+    {
+     "hash": "erosionDriveCurve",
+     "type": "EMBED",
+     "hash_type": "ValueFloat",
+     "data": [
+      {
+       "hash": "dynamics",
+       "type": "POINTER",
+       "hash_type": "VfxAnimatedFloatVariableData",
+       "data": [
+        {
+         "hash": "times",
+         "type": "LIST",
+         "value_type": "F32",
+         "data": [
+          0.0,
+          1.0
+         ]
+        },
+        {
+         "hash": "values",
+         "type": "LIST",
+         "value_type": "F32",
+         "data": [
+          0.0,
+          1.0
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "hash": "erosionFeatherIn",
+     "type": "F32",
+     "data": 0.4000000059604645
+    },
+    {
+     "hash": "erosionFeatherOut",
+     "type": "F32",
+     "data": 0.4000000059604645
+    },
+    {
+     "hash": "erosionMapName",
+     "type": "STRING",
+     "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Dissolve_Cloudy.tex"
+    }
+   ]
+  },
+  {
+   "hash": "miscRenderFlags",
+   "type": "U8",
+   "data": 1
+  },
+  {
+   "hash": "isUniformScale",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "isGroundLayer",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "useNavmeshMask",
+   "type": "FLAG",
+   "data": 1
+  },
+  {
+   "hash": "birthRotation0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      -90.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "hash": "dynamics",
+     "type": "POINTER",
+     "hash_type": "VfxAnimatedVector3fVariableData",
+     "data": [
+      {
+       "hash": "probabilityTables",
+       "type": "LIST",
+       "value_type": "POINTER",
+       "data": [
+        {
+         "hash": null,
+         "type": "POINTER",
+         "hash_type": "VfxProbabilityTableData",
+         "data": []
+        },
+        {
+         "hash": null,
+         "type": "POINTER",
+         "hash_type": "VfxProbabilityTableData",
+         "data": [
+          {
+           "hash": "keyTimes",
+           "type": "LIST",
+           "value_type": "F32",
+           "data": [
+            0.0,
+            1.0
+           ]
+          },
+          {
+           "hash": "keyValues",
+           "type": "LIST",
+           "value_type": "F32",
+           "data": [
+            0.0,
+            360.0
+           ]
+          }
+         ]
+        },
+        {
+         "hash": null,
+         "type": "POINTER",
+         "hash_type": "VfxProbabilityTableData",
+         "data": []
+        }
+       ]
+      },
+      {
+       "hash": "times",
+       "type": "LIST",
+       "value_type": "F32",
+       "data": [
+        0.0
+       ]
+      },
+      {
+       "hash": "values",
+       "type": "LIST",
+       "value_type": "VEC3",
+       "data": [
+        [
+         -90.0,
+         1.0,
+         0.0
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "birthScale0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "constantValue",
+     "type": "VEC3",
+     "data": [
+      900.0,
+      800.0,
+      800.0
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "scale0",
+   "type": "EMBED",
+   "hash_type": "ValueVector3",
+   "data": [
+    {
+     "hash": "dynamics",
+     "type": "POINTER",
+     "hash_type": "VfxAnimatedVector3fVariableData",
+     "data": [
+      {
+       "hash": "times",
+       "type": "LIST",
+       "value_type": "F32",
+       "data": [
+        0.0,
+        0.5,
+        1.0
+       ]
+      },
+      {
+       "hash": "values",
+       "type": "LIST",
+       "value_type": "VEC3",
+       "data": [
+        [
+         0.0,
+         0.0,
+         0.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "hash": "texture",
+   "type": "STRING",
+   "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_GroundFlash.tex"
+  }
+ ]
+}

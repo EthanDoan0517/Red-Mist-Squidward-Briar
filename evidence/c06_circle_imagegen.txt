@@ -1,0 +1,8 @@
+Tool: image_gen.imagegen, edit mode.
+Inputs: References/R hit effect background.jpg; References/R hit effect background reference 2.jpg
+Saved source output: work/c06/boys_who_cry.png
+Native output: ASSETS/RedMistBriar/boys_who_cry.tex, DXT5, 1024 square, all11mips; alpha retained.
+Prompt:
+Edit these two supplied frames into ONE accurate circular game effect texture. Both show the same Boys Who Cry backdrop. Remove Squidward completely (body, headphones, limbs), seamlessly reconstruct only the original background behind him using the second frame to resolve occlusions. Preserve the exact hand-painted cartoon style: green draped face-like curtain, two huge drooping yellow eyes with dark narrow pupils and black outlines, blue tear below left eye, pale blue side curtains, green wooden plank floor at the bottom. Use the second wider frame for full composition and first for detail. No new characters, no text or watermark. Reframe the reconstructed background as a centered perfect CIRCLE filling 94% of a square 1024x1024 image, all these features readable inside. Outside circle true transparent alpha. Keep colors, shapes, expression and background as close to original as possible; no embellishment, no 3D, no glow, no border. This will lie flat as an R-hit ground decal.
+
+Visual review: Squidward and watermark absent; green curtain face, yellow eyes, blue tear, side curtains and wooden floor retained. Circular transparent shape. Reconstruction is based on both occluded frames rather than a pixel-identical original clean plate.

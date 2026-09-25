@@ -1,0 +1,35 @@
+{
+  "source": "References\\source\\squidward_clarinet_final.blend",
+  "source_sha256": "effba28e51d683357ebfb9f9270759d5e27804619a7c2f56fa671ba40d1124c5",
+  "isolated_scene": "work/clarinets-only.blend",
+  "objects": [
+    {
+      "name": "Clarinet",
+      "vertices": 384,
+      "polygons": 364,
+      "materials": [
+        "Clarinet",
+        "OutlineClarinet"
+      ]
+    },
+    {
+      "name": "ShootClarinet",
+      "vertices": 384,
+      "polygons": 364,
+      "materials": [
+        "Clarinet",
+        "OutlineClarinet"
+      ]
+    }
+  ],
+  "texture_inventory": [
+    {
+      "name": "Clarinet",
+      "path": "//clarinet.png",
+      "packed": false,
+      "exists": false
+    }
+  ],
+  "excluded": "Base, EyeBags, Eyes, Pupils, Armature, WeaponController; no new Squidward geometry used",
+  "integration": "pending C02 gameplay load confirmation"
+}

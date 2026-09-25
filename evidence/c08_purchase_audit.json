@@ -1,0 +1,79 @@
+{
+  "status": "Read-only C07 purchase failure audit; missing modern hooks verified offline, runtime causality awaits C08 test",
+  "finding": "C07 changes legacy Store_Buy and Store_Upgrade only. Five modern registered purchase events bypass custom media41429280.",
+  "registry": "work/c07-common-bin-native/da13882526b44deb.bin",
+  "registry_entries": [
+    "78818a33",
+    "d2cb05ba"
+  ],
+  "bank_unit": "HUD_Global",
+  "native_parse_evidence": "evidence/c07_native_hud.xml",
+  "modern_hooks": [
+    {
+      "event_name": "Play_sfx_hud_base_store_item_buy_basic",
+      "event": 486956839,
+      "action": 706494478,
+      "container": 483314390,
+      "sound": 618189344,
+      "media": 805490819
+    },
+    {
+      "event_name": "Play_sfx_hud_base_store_item_buy_components",
+      "event": 3162797915,
+      "action": 490893084,
+      "container": 435998238,
+      "sound": 249340202,
+      "media": 278893966
+    },
+    {
+      "event_name": "Play_sfx_hud_base_store_item_buy_legendary",
+      "event": 2493453670,
+      "action": 14565971,
+      "container": 313781781,
+      "sound": 194257645,
+      "media": 539013537
+    },
+    {
+      "event_name": "Play_sfx_hud_base_store_item_buy_mythic",
+      "event": 2673763793,
+      "action": 95257756,
+      "container": 320174085,
+      "sound": null,
+      "media": null,
+      "note": "Native container empty: zero children"
+    },
+    {
+      "event_name": "Play_sfx_hud_base_store_item_buy_upgrade",
+      "event": 329350197,
+      "action": 1018985529,
+      "container": 788248496,
+      "sound": 993338015,
+      "media": 102637112
+    }
+  ],
+  "chain_proof": "FNV1 event-name hashes resolve in native HUD HIRC. Each event has the listed Play0x0403 action targeting its discrete random container, parent441752475. Each populated container has one Sound child. Reverse references across native HUD HIRC show listed action/container/media exclusively owned by the associated purchase chain, without sell/undo consumers.",
+  "recommended_repair": "Redirect five modern Play action targets to existing C07 custom purchase Sound1048964796, media41429280, normal makeup gain and max instance1. This also covers the empty mythic container and avoids components container killNewest1 dropping repeated purchases. Preserve legacy hooks and all nonpurchase actions.",
+  "placement_proof": {
+    "bank_paths": [
+      "ASSETS/Sounds/Wwise2016/SFX/Shared/HUD_Global_audio.bnk",
+      "ASSETS/Sounds/Wwise2016/SFX/Shared/HUD_Global_events.bnk"
+    ],
+    "installed_WAD_TOC_matches": [
+      "C:/Riot Games/League of Legends/Game/DATA/FINAL/Maps/Shipping/Common.wad.client",
+      "C:/Riot Games/League of Legends/Game/DATA/FINAL/Maps/Shipping/Map30.wad.client"
+    ],
+    "interpretation": "Common placement matches Summoners Rift shared assets; Map30 also contains these resources. No blanket claim for Arena coverage.",
+    "C07_packaging_evidence": "evidence/c07_package_validation.json",
+    "native_and_C07_bank_version": 145,
+    "audio_bank_ID": 1443213409,
+    "events_bank_ID": 2882635606,
+    "legacy_Play_action_bank_ID": 2882635606,
+    "source_metadata": "Native legacy Sounds use Vorbis plugin262145, embedded Data/bnk stream0, languageSpecific0, prefetch0, nonCachable0. C07 updates in-memory media size. No concrete bank/cache/disabledSound mismatch found."
+  },
+  "stop_order": {
+    "finding": "Not established as a fault: C07 actions are stop then play; official documentation specifies processing in listed order.",
+    "primary_source": "https://www.audiokinetic.com/fr/public-library/2024.1.5_8803/?id=soundengine_events.html&source=SDK",
+    "title": "Audiokinetic Wwise SDK \u2014 Using Events"
+  },
+  "scope": "Read-only audit. No candidate, bank, package or game/manager changes. Existing evidence and targeted native reads reused; no audio re-encoding."
+}

@@ -1,0 +1,59 @@
+{
+  "status": "OFFLINE VALIDATED; C09 GAMEPLAY PENDING",
+  "package": "skin versions\\RedMist-Squidward-Briar-C09.fantome",
+  "sha256": "5515644ea707b2048af95d240e1a486affe8b4135f97b2741fda49f3b290ce15",
+  "bytes": 7529683,
+  "wad_counts": {
+    "Briar.en_US.wad.client": 2,
+    "Briar.wad.client": 16,
+    "Common.wad.client": 2
+  },
+  "zip_crc": "PASS",
+  "native_path_hashes": "PASS",
+  "all_final_payloads_match_staging": "PASS",
+  "strict_SKN_BIN": "PASS",
+  "protected_C08_visuals_unchanged": [
+    "Briar.wad.client\\0e35941cdacaff56.tex",
+    "Briar.wad.client\\0ea451e749d9d041.tex",
+    "Briar.wad.client\\25a8846439092af3.tex",
+    "Briar.wad.client\\9a2d941d891bbf9c.tex",
+    "Briar.wad.client\\b7aca08692f3da3e.tex",
+    "Briar.wad.client\\f279b76afd0f0a62.bin",
+    "Briar.wad.client\\ASSETS\\RedMistBriar\\boys_who_cry.tex",
+    "Briar.wad.client\\ASSETS\\RedMistBriar\\burger.scb",
+    "Briar.wad.client\\ASSETS\\RedMistBriar\\burger.tex",
+    "Briar.wad.client\\ASSETS\\RedMistBriar\\face_bloom_mask.tex",
+    "Briar.wad.client\\ASSETS\\RedMistBriar\\face_colors.tex",
+    "Briar.wad.client\\ASSETS\\RedMistBriar\\red_flower.tex",
+    "Briar.wad.client\\ASSETS\\Characters\\Briar\\Skins\\Base\\Briar_Base.skn"
+  ],
+  "manifests": {
+    "Briar.en_US.wad.client": {
+      "0bf1d74ba8e576a0.bnk": "ecd7060bd0b6bf964f74b7195227dac48a9197c69e21f67821b2c301ac8d1810",
+      "d3bb103ed206538d.wpk": "24202d4a51befec028cf029144a91e6cb72bf282eb95935f28d30bc38b864d17"
+    },
+    "Briar.wad.client": {
+      "0e35941cdacaff56.tex": "3942936b52c6ee8b3c416b241bbb9ec842c89dfb4e24ccd21b66bcc75fde041a",
+      "0ea451e749d9d041.tex": "c1fab0e792e97b62495ec126c12d0a8b631db4d2d68a58a7cbff5c838293e0be",
+      "25a8846439092af3.tex": "6fea8704ea90ff648c4c97eeb4ddb2ebf8853d09bf08430f19aa550644790097",
+      "9a2d941d891bbf9c.tex": "b620d5d8e4f460fa48d121cddb3cddcbadb189600c65104f774d17a190e92731",
+      "b7aca08692f3da3e.tex": "236da68d73fbe4412da2f1286922665ef15c499e3bd0de2ee022253e7286d2d1",
+      "f279b76afd0f0a62.bin": "b73e2197eedba5d98dcda4c633b64ba05f521d2e3150758e2710436f97e1de84",
+      "ASSETS/RedMistBriar/boys_who_cry.tex": "0b571abc4c798bc551faa7b832a81d1102298bed1a063ab2ca1dba7cf62ea8bd",
+      "ASSETS/RedMistBriar/burger.scb": "132fff9be87ec3c70b01a1d8093afc7a62d324c5d8003f6b3babf3e66e852db9",
+      "ASSETS/RedMistBriar/burger.tex": "4711a1de284e7acece6576c8e75917cb138e069d83d81062cf5654c6956912bc",
+      "ASSETS/RedMistBriar/face_bloom_mask.tex": "9910f3d051d70cb7a35245ff7bb1802e4779346b1a02c1e2735fd0b886258627",
+      "ASSETS/RedMistBriar/face_colors.tex": "6c08e2a35d483e73277f14619a368655eb51b780fe46776d67bc82a8e325c71f",
+      "ASSETS/RedMistBriar/red_flower.tex": "07c6da8fcf9990b3923e46ad0d9a56546f3d63114c69aa8a4863db0163b76fab",
+      "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn": "ea70f3aab9e1877f6be69419007cba7cd587bf37add213dfc9f9dc500f310be3",
+      "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_audio.bnk": "985aeb94d3bd1b3a7ec0d1cf8c0995960bed52f19edc20e1c29d1b33a48d1572",
+      "ASSETS/Sounds/Wwise2016/SFX/Characters/Briar/Skins/Base/Briar_Base_SFX_events.bnk": "073dabd8a89c768feacdea8f21882876ba29bb66c3903ce424f5bd796e7e9037",
+      "DATA/Characters/Briar/Animations/Skin0.bin": "b95c2757f3ff44ea6284b91e46c49a062771f4f0840b87d7e84f35305afa2937"
+    },
+    "Common.wad.client": {
+      "ASSETS/Sounds/Wwise2016/SFX/Shared/HUD_Global_audio.bnk": "734f84338fe3b794aaa0eea5bca9c94a6e0324af9fe65285fc36ef462adb7c7c",
+      "ASSETS/Sounds/Wwise2016/SFX/Shared/HUD_Global_events.bnk": "5023489d93193a95e4dfd26481330c34659c7cd915ad5969e00d62c0dae6db1b"
+    }
+  },
+  "runtime_evidence": "C08 purchase still plays normal sound; manager overlay confirmed correctly applied. C09 changes voice frequency only. Purchase remains unresolved pending recording."
+}

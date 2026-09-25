@@ -1,0 +1,49 @@
+{
+  "status": "C08 purchase runtime failed again; no proven new repair, purchase payload preserved",
+  "runtime_feedback": "User confirms Practice Tool Summoners Rift, normal shop sound audible; C08 money clip absent. Manager confirmed CSLoL.",
+  "saved_profile": "Clash Lightning v1",
+  "saved_profile_enabled_mods": [
+    "RedMist-Squidward-Briar-C08"
+  ],
+  "profile_file": "C:/Users/etqdo/Downloads/cslol-go/profiles/Clash Lightning v1.profile",
+  "isolated_compile": {
+    "command": "mod-tools.exe mkoverlay work/candidate-c08 work/c09-purchase-overlay-audit --game:<installed game> --mods:mod --noTFT",
+    "result": "PASS; only isolated workspace output written; actual manager/profile unchanged",
+    "detail": "Common override compiled successfully and its HUD data matches C08. Tool also propagates HUD overrides to Map30. Map11/Map12 have no duplicate HUD hashes."
+  },
+  "payload_proof": {
+    "HUD_Global_events.bnk": {
+      "WAD_hash": "18c06847909e7515",
+      "sha256": {
+        "candidate": "5023489d93193a95e4dfd26481330c34659c7cd915ad5969e00d62c0dae6db1b",
+        "installed": "5023489d93193a95e4dfd26481330c34659c7cd915ad5969e00d62c0dae6db1b",
+        "actual_overlay_decoded": "5023489d93193a95e4dfd26481330c34659c7cd915ad5969e00d62c0dae6db1b",
+        "isolated_overlay_decoded": "5023489d93193a95e4dfd26481330c34659c7cd915ad5969e00d62c0dae6db1b"
+      },
+      "all_equal": true
+    },
+    "HUD_Global_audio.bnk": {
+      "WAD_hash": "50f98eaf44561da5",
+      "sha256": {
+        "candidate": "734f84338fe3b794aaa0eea5bca9c94a6e0324af9fe65285fc36ef462adb7c7c",
+        "installed": "734f84338fe3b794aaa0eea5bca9c94a6e0324af9fe65285fc36ef462adb7c7c",
+        "actual_overlay_decoded": "734f84338fe3b794aaa0eea5bca9c94a6e0324af9fe65285fc36ef462adb7c7c",
+        "isolated_overlay_decoded": "734f84338fe3b794aaa0eea5bca9c94a6e0324af9fe65285fc36ef462adb7c7c"
+      },
+      "all_equal": true
+    }
+  },
+  "actual_runtime_log": {
+    "path": "C:\\Users\\etqdo\\Downloads\\cslol-go\\profiles\\Clash Lightning v1\\patcher_log.txt",
+    "safe_relevant_last_run_lines": [
+      "dll 781.9117409 28016 1988 DEBUG ltk_patcher_dll::verify: verified overlay wad data/final/maps/shipping/common.wad.client",
+      "dll 782.2267416 28016 1988 INFO ltk_patcher_dll::hooks::fsov::imp: redirected wad: DATA/FINAL/Maps/Shipping/Common.wad.client"
+    ],
+    "interpretation": "Latest recorded PID28016 verified and redirected Common; disproves simple Common ignored/wrong saved profile hypothesis. Does not prove which Wwise event actually played."
+  },
+  "duplicate_event_audit": "No seven purchase event IDs duplicated outside HUD_Global in cached extracted native Common/UI/Global audio banks. Native HUD hashes occur in Common and Map30; Summoners Rift uses Common.",
+  "alternative_event": "Other helper found separate MISC_Gameplay_SFX Play_sfx_hud_base_store_item_with_debt, event3403452164. Debt-specific route is not evidence explaining a normal basic purchase; do not blindly add as general repair.",
+  "conclusion": "Package, installed mod and actual compiled overlay contain identical expected HUD banks, and loader logged Common redirection. Offline evidence cannot identify actual audible runtime event/asset. Preserve C08 purchase after two failed attempts.",
+  "next_evidence": "One short recording of buying one named basic item in Practice Tool, including the purchase click and audible normal shop sound, to distinguish the actual purchase sound from generic store-click/UI feedback and compare against native media. Alternatively an available Wwise runtime event trace can establish exact event/media.",
+  "skill_rule": "league-custom-skin-creator/references/validation-checkpoints.md: after two attempts without useful new evidence stop repeating the approach; further experiments require materially new hypothesis/evidence."
+}

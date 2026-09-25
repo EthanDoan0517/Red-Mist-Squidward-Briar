@@ -1,0 +1,21 @@
+{
+  "current_wad": "C:/Riot Games/League of Legends/Game/DATA/FINAL/Champions/Briar.wad.client",
+  "extraction": "work/original",
+  "extract_command": "wadtools.exe extract -i <current_wad> -o <workspace>/work/original --full-bin-scan",
+  "model_asset": "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skn",
+  "skeleton_asset": "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skl",
+  "skeleton_sha256": "1a64ac5e02544dc3483f144308655e7615f8c3a959cbc60f922b0a3f6a9e05b5",
+  "supplied_skeleton_identical_to_current": true,
+  "supplied_animations_matching_current": 74,
+  "supplied_animation_count": 74,
+  "diffuse_wad_hash": "0e35941cdacaff56",
+  "weapon_texture_wad_hash": "0ea451e749d9d041",
+  "native_skin_bin_extracted_as": "f279b76afd0f0a62.bin",
+  "native_skin_bin_text_evidence": "evidence/original_skin0.py",
+  "package_tool": "C:/Users/etqdo/Downloads/cslol-go/cslol-tools/mod-tools.exe",
+  "package_commands_documented_by_local_help_not_yet_executed": [
+    "mod-tools.exe addwad <candidate_asset_directory_named_Briar.wad.client> <mod_directory_with_META/info.json> --game:C:/Riot Games/League of Legends/Game --noTFT",
+    "mod-tools.exe export <mod_directory> <output.fantome> --game:C:/Riot Games/League of Legends/Game --noTFT"
+  ],
+  "package_notes": "Package only replacement model plus diffuse; no skeleton, animations, BIN, audio, HUD or broad particles needed. Hashed texture filename override must be checked by package extraction before delivery. No mod manager/game actions performed."
+}

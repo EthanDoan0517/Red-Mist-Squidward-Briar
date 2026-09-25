@@ -1,0 +1,32 @@
+{
+  "status": "BUILT; OFFLINE REVIEW PENDING",
+  "source": "C05 plus isolated C06 R BIN",
+  "clarinet_scale_from_C04": 2.5,
+  "clarinet_scale_from_C05": 0.8333333333333334,
+  "backfacing_triangles_reversed": 424,
+  "dark_eye_center_triangles_removed": 128,
+  "cause": "C05 red,white,blood overlays had inward winding; Blender double-sided preview hid the defect",
+  "material": "Native Briar Skin20 Hair_Frenzy_Fresnel_Bloom_inst adapted for RedMistFace; R/G mask isolates red/white bloom; black sockets and blood mask zero",
+  "material_hash": "cef99b89",
+  "shader_link": "720ce467 (inherited native global shader)",
+  "body_unchanged": true,
+  "SKN": {
+    "version": "4.1",
+    "vertices": 16505,
+    "indices": 81282,
+    "stride": 52,
+    "flags": 0,
+    "vertex_end": 1021136,
+    "required_bytes": 1021148,
+    "actual_bytes": 1021148,
+    "footer_bytes": 12,
+    "complete": true
+  },
+  "strict_BIN": {
+    "bytes": 454584,
+    "entries": 64,
+    "checked_declared_sizes": 14686,
+    "fields": 21944,
+    "eof_exact": true
+  }
+}

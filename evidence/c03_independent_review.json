@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "original_strict_walk": {
+    "bytes": 544252,
+    "entries": 63,
+    "checked_declared_sizes": 17587,
+    "fields": 26481,
+    "eof_exact": true
+  },
+  "candidate_strict_walk": {
+    "bytes": 542429,
+    "entries": 63,
+    "checked_declared_sizes": 17538,
+    "fields": 26394,
+    "eof_exact": true
+  },
+  "candidate_sha256": "d5d7f382310bcfefa82feee0d061aa8d6abfbd099c7662fe900332b40176046f",
+  "unchanged_entry_count": 62,
+  "only_changed_entry": [
+    "c1abf8a9"
+  ],
+  "removed_emitters": [
+    "Missile_Fresnel",
+    "Missile_Sheen1"
+  ],
+  "unchanged_R_emitters": 21,
+  "core_field_diffs": [
+    {
+      "field_hash": "007b14f6",
+      "changed_paths": [
+        "/data/0/data/0/data"
+      ]
+    },
+    {
+      "field_hash": "f0eb7084",
+      "changed_paths": [
+        "/data/0/data/0",
+        "/data/0/data/1",
+        "/data/0/data/2"
+      ]
+    },
+    {
+      "field_hash": "3c6468f4",
+      "changed_paths": [
+        "/data"
+      ]
+    }
+  ],
+  "native_frenzydaggers_visibility_events": [
+    {
+      "clip_hash": "265d3b4f",
+      "animation_file_hash": "7db42870da644241",
+      "animation_name": "spell3_windup_frenzy.anm",
+      "event_hash": "e2d32cb7",
+      "event": {
+        "data": [
+          {
+            "data": [
+              "a47b9ffd",
+              "8ae1ae3e"
+            ],
+            "hash": "6d4d42d0",
+            "type": "LIST",
+            "value_type": "HASH"
+          },
+          {
+            "data": [
+              "916371ae",
+              "37cff1f3"
+            ],
+            "hash": "bb41a45b",
+            "type": "LIST",
+            "value_type": "HASH"
+          }
+        ],
+        "hash": null,
+        "hash_type": "bcf56e70",
+        "type": "POINTER"
+      }
+    },
+    {
+      "clip_hash": "6550159a",
+      "animation_file_hash": "03a7a6b2c9aa2050",
+      "animation_name": "spell2_attack.anm",
+      "event_hash": "cffa641a",
+      "event": {
+        "data": [
+          {
+            "data": [
+              "a47b9ffd",
+              "8ae1ae3e"
+            ],
+            "hash": "6d4d42d0",
+            "type": "LIST",
+            "value_type": "HASH"
+          },
+          {
+            "data": [
+              "916371ae"
+            ],
+            "hash": "bb41a45b",
+            "type": "LIST",
+            "value_type": "HASH"
+          }
+        ],
+        "hash": null,
+        "hash_type": "bcf56e70",
+        "type": "POINTER"
+      }
+    }
+  ],
+  "limitations": "Offline byte/semantic inspection and native event inheritance; gameplay visibility timing and VFX appearance still require user test.",
+  "native_visibility_interpretation": {
+    "6d4d42d0": "mShowSubmeshList (verified FNV1a name hash)",
+    "bb41a45b": "mHideSubmeshList (verified FNV1a name hash)",
+    "confirmed": "FrenzyDaggers hidden initially in native skin definition; graph explicitly shows during spell2_attack (W recast) and spell3_windup_frenzy (E while frenzy).",
+    "not_proven_by_graph_alone": "Initial W activation and R berserk visibility may be controlled by native gameplay scripts. Preserving submesh name inherits native behavior but exact W/R appearance must be gameplay-tested."
+  }
+}

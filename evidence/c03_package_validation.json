@@ -1,0 +1,35 @@
+{
+  "status": "OFFLINE VALIDATED; C03 GAMEPLAY PENDING",
+  "package": "skin versions\\RedMist-Squidward-Briar-C03.fantome",
+  "sha256": "fb3f21f15a1bd9ac510bf92d22d1b612ffc684fb5cfc3fb190751b6b276ec3cc",
+  "bytes": 1328521,
+  "zip_crc": "PASS",
+  "wad_payloads": 9,
+  "wad_hashes": [
+    "0e35941cdacaff56",
+    "0ea451e749d9d041",
+    "14ab19e7208e3d5d",
+    "25a8846439092af3",
+    "9144d26d7f271649",
+    "9a2d941d891bbf9c",
+    "b7aca08692f3da3e",
+    "ea02551091d0d8ff",
+    "f279b76afd0f0a62"
+  ],
+  "final_archive_payloads_match_staging": true,
+  "custom_R_mesh_texture_references_resolve": "PASS",
+  "strict_SKN_footer": "PASS",
+  "manifest": {
+    "0e35941cdacaff56.tex": "3e28a4192b71374bf5d1a41e9ef54cd5d8aa2b1c881407969ee5810aa8866895",
+    "0ea451e749d9d041.tex": "c1fab0e792e97b62495ec126c12d0a8b631db4d2d68a58a7cbff5c838293e0be",
+    "25a8846439092af3.tex": "6fea8704ea90ff648c4c97eeb4ddb2ebf8853d09bf08430f19aa550644790097",
+    "9a2d941d891bbf9c.tex": "b620d5d8e4f460fa48d121cddb3cddcbadb189600c65104f774d17a190e92731",
+    "b7aca08692f3da3e.tex": "236da68d73fbe4412da2f1286922665ef15c499e3bd0de2ee022253e7286d2d1",
+    "f279b76afd0f0a62.bin": "d5d7f382310bcfefa82feee0d061aa8d6abfbd099c7662fe900332b40176046f",
+    "ASSETS\\RedMistBriar\\burger.scb": "18a7bd9abe123107d31e1b0e9c96190fc2266621a3c8d0d95aadc1558ae53414",
+    "ASSETS\\RedMistBriar\\burger.tex": "4711a1de284e7acece6576c8e75917cb138e069d83d81062cf5654c6956912bc",
+    "ASSETS\\Characters\\Briar\\Skins\\Base\\Briar_Base.skn": "9f43db554644437ebda4f96328e7af557d2ddd545128ba7bb2a4b21358ec4db3"
+  },
+  "protected": "C02 body vertex/index data and diffuse unchanged; native SKL/ANM/animation graph/audio omitted;62non-R BIN entries unchanged",
+  "runtime": "C02 load confirmed by user; C03 not tested"
+}

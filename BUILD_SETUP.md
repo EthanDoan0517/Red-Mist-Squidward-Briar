@@ -1,0 +1,13 @@
+# Local build prerequisites
+
+Source synchronization and asset editing work in independent clones. Full clean-build portability is not yet implemented: existing recipes depend on generated stages and desktop-specific external tools. Do not interpret a successful clone as a reproducible build test.
+
+1. Install Blender (desktop-tested: 5.2.1 LTS), Python, pyRitoFile from the existing LtMAO installation, wadtools and CSLoL mod-tools. Audio work additionally uses wwiser, FFmpeg, wav2wem and Python dependencies including xxhash. Keep downloads and runtimes outside tracked source. Exact desktop paths and validation results are in STATUS.md.
+2. Install League and the matching voice locale locally (the current baseline is en_US). Re-extract native inputs using the existing inspection/build scripts and the version-matched game files. Original game archives and installed applications are not uploaded.
+3. Audit machine-specific paths before running a recipe: `rg -n 'C:/|C:\\' scripts`. Paths recorded in evidence are historical provenance; do not rewrite reports to pretend they were produced on the laptop. Recipe path updates should be reviewed and committed as tooling changes. Queen currently also references Squidward's wwiser, hash tables and xxhash cache at an older desktop location.
+4. Read the selected candidate's reproduction section in STATUS.md. Later recipes reuse earlier generated staging, XML evidence and audio conversions. Retained XML evidence supports this dependency; ignored stages must be regenerated in order. For example, Squidward C09 needs C08 base/voice stages, `work/c08-audio-prepared/move.wem`, `evidence/c06_native_voice.xml`, and wwiser. Copying only the latest two scripts is insufficient.
+5. Never overwrite a delivered package or mutate original sources. The scripts contain preservation guards. Use a new candidate number or separate checkout for rebuilding; validate only changed components and record the result. No assets were rebuilt during Git setup.
+
+Editable working scenes in work/ and output/ are intentional tracking exceptions. Blender scenes may retain absolute linked-file paths; use the tracked source textures to relink missing resources when opening on another computer, and save the corrected scene as a reviewed asset change. Packed Queen textures are recorded in STATUS.md; laptop scene opening is not yet tested.
+
+For package distribution, create a GitHub Release attached to the corresponding source commit, upload the versioned .fantome and test notes, mark unaccepted candidates as prereleases, and record SHA256. Keep older rollback releases. RELEASE_MANIFEST.json provides the initial archive inventory; it does not assert historical source commit correspondence.

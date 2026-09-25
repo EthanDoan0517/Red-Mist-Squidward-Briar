@@ -1,0 +1,47 @@
+[
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C01.fantome",
+    "bytes": 959181,
+    "sha256": "094ac00f3d5dbdc09caf7414acf85d69db134fadd8cb25058effc453699dc6cf"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C02.fantome",
+    "bytes": 959148,
+    "sha256": "c3f9ce58ef046f377f8010ef80d196c90192c7f127791be676ddea009c59da21"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C03.fantome",
+    "bytes": 1328521,
+    "sha256": "fb3f21f15a1bd9ac510bf92d22d1b612ffc684fb5cfc3fb190751b6b276ec3cc"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C04.fantome",
+    "bytes": 1326886,
+    "sha256": "dfe77d4743608c03bfb4f80e0d9ba2ac698a14fcbd5dd444c1302bfc4bb2a4f6"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C05.fantome",
+    "bytes": 3245887,
+    "sha256": "4d18231d76578447cdd98191efedc05a678e45a9c1d6b93e144bdccf2fa81704"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C06.fantome",
+    "bytes": 2116851,
+    "sha256": "12e95c792497acc12023b2ef1b97669ef16e468c304c50a6f6eccf08baa3b9e6"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C07.fantome",
+    "bytes": 4358796,
+    "sha256": "4cd12c369b7da9b40e6243f54ba26a58507af29837061d175c80db6b38d23af1"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C08.fantome",
+    "bytes": 4922960,
+    "sha256": "6b52108c2cce5b3ca13b27735f2c737986a658e2a6ae834aabd85e80cb105856"
+  },
+  {
+    "path": "skin versions/RedMist-Squidward-Briar-C09.fantome",
+    "bytes": 7529683,
+    "sha256": "5515644ea707b2048af95d240e1a486affe8b4135f97b2741fda49f3b290ce15"
+  }
+]

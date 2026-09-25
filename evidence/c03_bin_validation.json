@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "native_BIN": "f279b76afd0f0a62",
+  "changed_entry": "c1abf8a9 (Briar_Base_R_Mis)",
+  "changed_core_fields": [
+    "primitive.mMesh.mSimpleMeshName",
+    "texture",
+    "birthScale0.constantValue"
+  ],
+  "removed_core_overlays": [
+    "Missile_Fresnel",
+    "Missile_Sheen1"
+  ],
+  "unchanged_other_R_emitters": 21,
+  "all_other_BIN_entries_unchanged": 62,
+  "lifetime_rate_spawn_bind_rotation_scale_curve_preserved": true,
+  "roundtrip_semantics": "PASS",
+  "output_sha256": "d5d7f382310bcfefa82feee0d061aa8d6abfbd099c7662fe900332b40176046f",
+  "note": "Burger local geometry center matches native scaled gem center; gameplay remains required for orientation/size/readability."
+}

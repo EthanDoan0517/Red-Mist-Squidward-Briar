@@ -1,0 +1,68 @@
+{
+  "status": "OFFLINE VALIDATED \u2014 AWAITING C06 GAMEPLAY AUDIO TEST",
+  "C05_death_finding": "Native death container441395493 has MakeUpGain=-20dB, confirmed by wwiser. Plausible inaudibility contributor, not runtime-confirmed sole cause. C06 bypasses container and explicitly routes death animation frame1 to direct custom Sound.",
+  "native_SFX_media_silenced": 109,
+  "native_VO_media_silenced": 164,
+  "native_VO_events_disabled": 53,
+  "custom_media": 3,
+  "death_route": [
+    {
+      "animation_clip_hash": "bd28bd4d",
+      "animation_event_hash": "edd1e584",
+      "new_event": "Play_sfx_RedMistBriar_Death",
+      "frame": 1
+    }
+  ],
+  "death_ids": {
+    "DeathSound": 1727772221,
+    "DeathPlayAction": 2990483768,
+    "DeathEvent": 4235614119
+  },
+  "death_media": 2805924193,
+  "death_stop": "Existing C05 respawn Stop event retargeted to new custom DeathSound.9.6second one-shot, no loop.",
+  "strict_animation_BIN": {
+    "bytes": 72260,
+    "entries": 1,
+    "checked_declared_sizes": 2553,
+    "fields": 2878,
+    "eof_exact": true
+  },
+  "silent_wem_sha256": "0f26de2ada2f82b0fe27a7b47f1c5fb891182dceb914bcf46234edd6beb54801",
+  "silence_decodes_exact_zero": true,
+  "coverage": "Active base Briar SFX and installed en_US base voice. Other skins/locales and shared map/items/summoner/UI/global sounds are outside these Briar-owned banks.",
+  "replacement_map": "evidence/c06_audio_replacement_map.json",
+  "outputs": {
+    "Briar.en_US.wad.client\\0bf1d74ba8e576a0.bnk": "9e5a95bf3b996fe397536bf83eba9ce501f202d8cb0f3e3d36d03d3d568f97ab",
+    "Briar.en_US.wad.client\\d3bb103ed206538d.wpk": "17bc91e1098760bb0eeddb1192eee33cbcd920f82fa21050c745e5c3a74ced80",
+    "Briar.wad.client\\ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_audio.bnk": "f1213f8b11deabe9bccba3ae20e31b4d2cbaf96f8cf172dc86d3b325683e0c26",
+    "Briar.wad.client\\ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_events.bnk": "f6daf1fc4c29db24fefbe24170a0236a57db83dcddd0f17303235c232c727197",
+    "Briar.wad.client\\DATA\\Characters\\Briar\\Animations\\Skin0.bin": "a4b4f1ecfd001608a67c61ed038f6089598d05de62eb8dab1c5b620f5747ba4d"
+  },
+  "limits": "Custom death audibility and all muted triggers require gameplay; isolated decoding/graph validation is not an in-game result.",
+  "independent_validation": {
+    "SFX_media_total": 112,
+    "SFX_silent_media": 109,
+    "SFX_custom_WEMs_exact_C05_validated_bytes": 3,
+    "all_DIDX_spans_aligned_disjoint_valid": true,
+    "SFX_HIRC_objects": 442,
+    "VO_HIRC_objects": 357,
+    "VO_events_zero_actions": 53,
+    "WPK_media_count": 164,
+    "WPK_offsets_names_EOF_valid": true,
+    "wwiser_both_banks_parse_without_errors": true,
+    "custom_death_play_stop_targets_verified": true,
+    "death_TXTP_chain": "Event4235614119\u2192Action2990483768\u2192Sound1727772221\u2192Media2805924193; direct one-shot, normal0dB path, bypass native -20dB death container",
+    "animation_changed_only_original_death_sound_event": true,
+    "strict_animation_BIN": {
+      "bytes": 72260,
+      "entries": 1,
+      "checked_declared_sizes": 2553,
+      "fields": 2878,
+      "eof_exact": true
+    }
+  },
+  "native_locale_targets": {
+    "0bf1d74ba8e576a0.bnk": "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Briar/Skins/Base/Briar_Base_VO_events.bnk",
+    "d3bb103ed206538d.wpk": "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Briar/Skins/Base/Briar_Base_VO_audio.wpk"
+  }
+}

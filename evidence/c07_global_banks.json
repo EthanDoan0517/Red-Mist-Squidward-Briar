@@ -1,0 +1,11 @@
+[2m2026-09-20T18:27:46.985776Z[0m [33m WARN[0m could not open hash table 'game': no manifest at C:\Users\etqdo\AppData\Local\LeagueToolkit\hashes\manifest.json. Run `wadtools download-hashes` to populate the cache.
+[2m2026-09-20T18:27:46.985815Z[0m [33m WARN[0m could not open hash table 'lcu': no manifest at C:\Users\etqdo\AppData\Local\LeagueToolkit\hashes\manifest.json. Run `wadtools download-hashes` to populate the cache.
+{
+  "wad_path": "C:\\Riot Games\\League of Legends\\Game\\DATA\\FINAL\\Global.wad.client",
+  "total_chunks": 66289,
+  "matched_chunks": 0,
+  "total_compressed_size": 0,
+  "total_uncompressed_size": 0,
+  "overall_compression_ratio": 0.0,
+  "chunks": []
+}

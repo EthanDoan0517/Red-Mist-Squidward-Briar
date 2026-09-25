@@ -1,0 +1,79 @@
+{
+  "status": "OFFLINE VALIDATED; runtime timing and target appearance unconfirmed",
+  "source_sha256": "a0c90180d5de55ca261caef465179962f0b5537b0350c22baef55b2bbb5abfc9",
+  "output_sha256": "de49eda56c6ae6a07d1c88ce5114a6df30621417b5ced18ef7d8f173d3ef7a10",
+  "strict_BIN": {
+    "bytes": 453488,
+    "entries": 63,
+    "checked_declared_sizes": 14659,
+    "fields": 21892,
+    "eof_exact": true
+  },
+  "changed_entries": [
+    "6bbc8114",
+    "c1544e01",
+    "c1abf8a9"
+  ],
+  "unchanged_entries": 60,
+  "burger_spin": {
+    "axis": "Y (vertical)",
+    "degrees_per_second": 180,
+    "period_seconds": 2,
+    "mechanism": "existing IntegratedValueVector3 rotation0 single constant dynamics sample, isRotationEnabled=1",
+    "preserved": "world orientation, trajectory, spawn offset, lifetime, scale, burger mesh and texture"
+  },
+  "post_hit_target_circle": [
+    {
+      "entry": "6bbc8114",
+      "particle": "Briar_Base_R_Berserk_Target",
+      "source_emitter": "Marker4",
+      "removed_emitters": [
+        "Marker4",
+        "Marker5",
+        "Marker6",
+        "impactStones",
+        "impactStones1",
+        "glowBacker",
+        "wisp",
+        "wisp1",
+        "ray",
+        "noiseBacker",
+        "outerTendrils"
+      ],
+      "remaining": "BoysWhoCry_Circle",
+      "native_lifetime_binding_orientation_preserved": true
+    },
+    {
+      "entry": "c1544e01",
+      "particle": "Briar_Base_R_Berserk_Target_Detailed",
+      "source_emitter": "Marker",
+      "removed_emitters": [
+        "Marker",
+        "Marker1",
+        "noiseBacker",
+        "outerTendrils",
+        "impactStones",
+        "outerTendrils1",
+        "glowBacker",
+        "wisp",
+        "ray",
+        "impactStones1",
+        "Marker3",
+        "wisp2"
+      ],
+      "remaining": "BoysWhoCry_Circle",
+      "native_lifetime_binding_orientation_preserved": true
+    }
+  ],
+  "art_texture": "ASSETS/RedMistBriar/boys_who_cry.tex",
+  "art_tint": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "blend_mode": 1,
+  "preserved_other_R": "warning before arrival, arrival burst, impact, all other systems",
+  "schema_source": "https://wiki.divineskins.gg/en/docs/lol/vfx-bins/bin-dictionary",
+  "schema_provenance": "DAKA primary reverse-engineered engine registered class layout checked patch16.16; Units degrees/second, Y up, blend1 SRC_ALPHA/INV_SRC_ALPHA. Native birthRotation0 uses90 degrees and source rotation0 is already IntegratedValueVector3."
+}

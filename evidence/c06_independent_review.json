@@ -1,0 +1,54 @@
+{
+  "status": "OFFLINE STRUCTURAL PASS; global shader/bloom appearance requires gameplay",
+  "SKN_sha256": "ea70f3aab9e1877f6be69419007cba7cd587bf37add213dfc9f9dc500f310be3",
+  "SKN": {
+    "version": "4.1",
+    "vertices": 16505,
+    "indices": 81282,
+    "stride": 52,
+    "flags": 0,
+    "vertex_end": 1021136,
+    "required_bytes": 1021148,
+    "actual_bytes": 1021148,
+    "footer_bytes": 12,
+    "complete": true
+  },
+  "original_body_vertices_and_indices_unchanged": true,
+  "clarinet_scale_C05": 0.8333333333333334,
+  "clarinet_scale_error": 1.1347458126920174e-05,
+  "burger_mesh_unchanged_from_C05": true,
+  "winding_reversed": 424,
+  "dark_center_triangles_removed": 128,
+  "surviving_face_triangle_min_normal_dot": 0.015449263170012273,
+  "surviving_face_triangles_frontfacing_vs_vertex_normals": true,
+  "white_center_vertices_shifted": 66,
+  "C06_R_BIN_preserved_except_skin_material_override": true,
+  "native_material_LINK_schema_matches_donor": true,
+  "material_inherits_native_techniques_switches_macros_states": true,
+  "material_dependency_links": [
+    "720ce467"
+  ],
+  "donor_Skin20_assets_or_animation_links_not_added": true,
+  "samplers": {
+    "Diffuse_Texture": "ed03d591dfb8bc96",
+    "Mask_Texture": "a91a374647d853f0"
+  },
+  "mask_slots_verified": true,
+  "circle_mips_verified": true,
+  "texture_staging": {
+    "boys_who_cry.tex": true,
+    "face_bloom_mask.tex": true
+  },
+  "strict_BIN": {
+    "bytes": 454584,
+    "entries": 64,
+    "checked_declared_sizes": 14686,
+    "fields": 21944,
+    "eof_exact": true
+  },
+  "risks": [
+    "Shader720ce467 remains the donor native global link; engine-global shader availability and bloom behavior not independently proven by these champion assets.",
+    "Donor material techniques/state switches remain native, including USE_RIM/INVERTED_FRESNEL; zero Fresnel_Color suppresses intended rim contribution but runtime behavior must be checked.",
+    "Corrected winding passes geometry/normal agreement; self-occlusion and glow intensity need runtime screenshots."
+  ]
+}

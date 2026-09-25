@@ -1,0 +1,10 @@
+decoding C:\Users\etqdo\Downloads\Squidward briar\work\c07-audio-prepared\buy.wem
+sample rate: 44100 Hz
+channels: 2
+stream total samples: 434165 (0:09.845 seconds)
+encoding: Custom Vorbis
+layout: flat
+metadata from: Audiokinetic Wwise RIFF header
+bitrate: 125 kbps
+sample type: float
+play duration: 434165 samples (0:09.845 seconds)

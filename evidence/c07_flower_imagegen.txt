@@ -1,0 +1,7 @@
+Tool: image_gen.imagegen (reference edit).
+Input: References/Spongebob flower, small R hit.webp, red upper-right flower.
+Saved output: work/c07/red_flower.png. Native alpha-preserving DXT5 output: ASSETS/RedMistBriar/red_flower.tex.
+Prompt:
+Create a single transparent game VFX sprite using ONLY the red/coral five-lobed outlined SpongeBob sky flower in the upper-right of this reference. Faithfully match its asymmetrical rounded wavy petal outline and small open circular center. One centered flower, large, no other flowers, no text, no watermark, no rectangular background. Change outline to vivid bright red #FE4E4A with a narrow bright coral core and gentle red outer glow fading smoothly into true transparent alpha. Flower interior and tiny center hole transparent, not filled white. Keep recognizable flat cartoon outline, no3D, no realisticflower, no stems. Square1024x1024 canvas, flower fits inside80% with room for halo. This is a small glowing red ground marker.
+
+Inspected: single five-lobed outline with open petal spaces, red/coral halo and transparent exterior; no unrelated flowers or text. Generation creates an approximation of the supplied motif, not a pixel-identical extraction.

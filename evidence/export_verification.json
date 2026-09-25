@@ -1,0 +1,72 @@
+{
+  "status": "OFFLINE EXPORT PATH VERIFIED",
+  "runtime": "C:\\Users\\etqdo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "library": "C:\\Users\\etqdo\\Documents\\maya\\LtMAO\\src\\LtMAO\\pyRitoFile",
+  "source": "C:\\Users\\etqdo\\Downloads\\Squidward briar\\References\\Squidward Briar Maya\\briar.wad.client\\assets\\Etdoan\\Squidward-Briar\\briar_base.skn",
+  "source_sha256": "eba5e79cf34a141f6da5b4183979598dc5983c13b0dc445a7000816fa1c6dd6e",
+  "serialized_sha256": "deb18a0b25be1ca6202ad6519e6562ff51b9253ef0d1d6e8dbc4da9c0487343a",
+  "byte_identical": false,
+  "semantic_identical": true,
+  "semantic_sha256": "5ffa56428479f88f5e05af8df5f8bb246f7286867505c2e9ab62635e3ab21bc0",
+  "vertices": 17221,
+  "indices": 69468,
+  "submeshes": [
+    {
+      "name": "Body",
+      "bin_hash": "dbaa7975",
+      "vertex_start": 0,
+      "vertex_count": 6414,
+      "index_start": 0,
+      "index_count": 25146
+    },
+    {
+      "name": "ShacklePieces",
+      "bin_hash": "37cff1f3",
+      "vertex_start": 6414,
+      "vertex_count": 1468,
+      "index_start": 25146,
+      "index_count": 6012
+    },
+    {
+      "name": "Crystal",
+      "bin_hash": "4594fdc9",
+      "vertex_start": 7882,
+      "vertex_count": 38,
+      "index_start": 31158,
+      "index_count": 144
+    },
+    {
+      "name": "ShackleBlades",
+      "bin_hash": "e942e883",
+      "vertex_start": 7920,
+      "vertex_count": 770,
+      "index_start": 31302,
+      "index_count": 3156
+    },
+    {
+      "name": "FrenzyDaggers",
+      "bin_hash": "8ae1ae3e",
+      "vertex_start": 8690,
+      "vertex_count": 570,
+      "index_start": 34458,
+      "index_count": 1962
+    },
+    {
+      "name": "HeadBase",
+      "bin_hash": "916371ae",
+      "vertex_start": 9260,
+      "vertex_count": 3628,
+      "index_start": 36420,
+      "index_count": 14712
+    },
+    {
+      "name": "HeadFrenzy",
+      "bin_hash": "a47b9ffd",
+      "vertex_start": 12888,
+      "vertex_count": 4333,
+      "index_start": 51132,
+      "index_count": 18336
+    }
+  ],
+  "scope": "SKN read/write/read in memory; source assets unchanged. Candidate-specific validation and gameplay still required."
+}

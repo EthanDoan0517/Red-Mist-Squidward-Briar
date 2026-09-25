@@ -1,0 +1,14 @@
+{
+  "source": "work\\c07\\red_flower.png",
+  "source_sha256": "691c26c1254677c988f0a5f7bbacb11e5950087d5ba29c83fe3d1a1650bf9d46",
+  "texture_sha256": "07c6da8fcf9990b3923e46ad0d9a56546f3d63114c69aa8a4863db0163b76fab",
+  "format": "DXT5",
+  "dimensions": [
+    512,
+    512
+  ],
+  "mips": 10,
+  "alpha": "preserved",
+  "reference": "References/Spongebob flower, small R hit.webp",
+  "decode_roundtrip": "PASS"
+}

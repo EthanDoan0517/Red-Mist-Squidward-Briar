@@ -1,0 +1,9 @@
+Purpose: color-only body UV atlas edit, generated with image_gen.imagegen.
+Input: References/spongebob-squarepants-squidward-model/textures/T_MP_Squidward_D.001.png
+Output: work/c05/body-gray-atlas.png
+Eye reference: References/ref image squidward.png. Eye and blood geometry/material constants are authored separately in scripts/build_c05_visuals.py and encode_c05_textures.py.
+
+Prompt:
+Edit this game character UV diffuse texture atlas, NOT a character illustration. Preserve every UV island boundary, coordinate, silhouette, spot, mouth detail, shading, and exact square layout. Only recolor ALL cyan/mint/turquoise skin areas to pale gray-lavender with base albedo HEX #CAC6CF (RGB 202,198,207); maintain subtle existing shading. Recolor teal skin spots and blue-purple suction cups to darker gray/lavender variations consistent with #CAC6CF. Keep mustard/yellow shirt fabric, white/beige eye areas, mouth interior, tongue, black instrument region exactly unchanged. Do not add eyes, blood, labels, borders, objects or new islands. Output 2048x2048 square atlas with the exact same pixel-aligned UV layout. This is a precise color-only edit.
+
+Final native body format: DXT1 1024x1024,11mips. Face lookup format: BGRA8, exact requested color constants. Lighting and DXT compression affect apparent body color. Source reference remains unchanged.

@@ -1,0 +1,39 @@
+{
+  "status": "OFFLINE PASS; RUNTIME PENDING",
+  "diagnosis": "C01 SKN v4.1 lacks mandatory 12-byte end tab; permissive writer and reader omitted it",
+  "source": "https://github.com/LeagueToolkit/league-toolkit/blob/main/crates/ltk_mesh/src/skinned/mod.rs",
+  "C01": {
+    "version": "4.1",
+    "vertices": 14969,
+    "indices": 77754,
+    "stride": 52,
+    "flags": 0,
+    "vertex_end": 934048,
+    "required_bytes": 934060,
+    "actual_bytes": 934048,
+    "footer_bytes": 0,
+    "complete": false
+  },
+  "C02": {
+    "version": "4.1",
+    "vertices": 14969,
+    "indices": 77754,
+    "stride": 52,
+    "flags": 0,
+    "vertex_end": 934048,
+    "required_bytes": 934060,
+    "actual_bytes": 934060,
+    "footer_bytes": 12,
+    "complete": true
+  },
+  "native_footer": "000000000000000000000000",
+  "changed_bytes": "append 12 zero bytes only",
+  "geometry_weights_uv_normals_unchanged": true,
+  "texture_unchanged": true,
+  "reused_pose_evidence": "evidence/pose_validation.json applies to byte-identical geometry payload",
+  "package_crc_and_roundtrip": "PASS",
+  "package_sha256": "c3f9ce58ef046f377f8010ef80d196c90192c7f127791be676ddea009c59da21",
+  "model_sha256": "7cd118a38e0ca68b06670d974c57c628968866e25a7c3bc4d764767f7e3a3825",
+  "package_bytes": 959148,
+  "package": "skin versions\\RedMist-Squidward-Briar-C02.fantome"
+}

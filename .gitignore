@@ -1,0 +1,39 @@
+# Local tools, extraction, staging and disposable builds
+/work/*
+!/work/*.blend
+!/work/*.py
+/output/*
+!/output/*.blend
+!/output/*.png
+!/output/TEST-*.md
+/skin versions/
+/build/
+/dist/
+/cache/
+/temp/
+/tmp/
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.blend[0-9]*
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.fantome
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/local.config.json
+.vscode/
+.idea/
+# Do not globally ignore game-format files: supplied reference mods are source.

@@ -1,0 +1,51 @@
+{
+  "body_vertices_preserved": 14969,
+  "added_clarinet_vertices": 492,
+  "added_triangles": 760,
+  "submeshes": [
+    "Body",
+    "FrenzyDaggers"
+  ],
+  "clarinet_source": "References/source/squidward_clarinet_final.blend: Clarinet mesh only, duplicated once; outline hull omitted",
+  "joints": [
+    "L_Hand",
+    "R_Hand"
+  ],
+  "visibility": "FrenzyDaggers native visibility; hidden initially, shown in frenzy (W and native R berserk)",
+  "SKN_sha256": "9f43db554644437ebda4f96328e7af557d2ddd545128ba7bb2a4b21358ec4db3",
+  "burger": {
+    "source_parts": [
+      "Bottom Bun",
+      "Cheese",
+      "Lettuce",
+      "Onion 1",
+      "Onion 2",
+      "Patty",
+      "Pickle",
+      "Pickle 1",
+      "Pickle 2",
+      "Pickle 3",
+      "Pickle 4",
+      "Sesame Seeds",
+      "Tomato 1",
+      "Tomtato 2",
+      "Top Bun"
+    ],
+    "vertices": 2824,
+    "triangles": 5484,
+    "width": 100,
+    "atlas_tiles": [
+      "bottombun",
+      "cheese",
+      "lettuce",
+      "onion",
+      "patty",
+      "pickle",
+      "sesameseeds",
+      "tomato",
+      "topbun"
+    ],
+    "SCB_bytes": 582480,
+    "SCB_roundtrip": "PASS"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "inherits": "evidence/c07_audio_replacement_map.json",
+  "status": "BUILT; independent validation pending",
+  "clips": [
+    {
+      "role": "move",
+      "source": "Squidward laugh 1.wav",
+      "source_sha256": "7a7b5eb99315f4cc537a8b72aab5515d53969919c43c23b80957fa4cd58a3dd1",
+      "seconds": 6.122562358276644,
+      "full_clip": true,
+      "wem_sha256": "12edaf15f1ca7ebe3c8dff6dfa8cce762dba7d1bc339809121204358cbb20384"
+    },
+    {
+      "role": "scream0",
+      "source": "Squidward scream .wav",
+      "source_sha256": "bebdf52243fc811a01501504ce6344a81cf2ffd0744aa6d3cb46a7397ff01b75",
+      "seconds": 10.43281179138322,
+      "full_clip": true,
+      "wem_sha256": "50c0d34f8501915bbbbdc0211643bb6f5ad369871f987b9d9c8f245a199304e5"
+    },
+    {
+      "role": "scream1",
+      "source": "squidward scream 1.wav",
+      "source_sha256": "93e8ca583fbc374a34ed83dd3e075526466dd0f14843b58a04947d72602f4fcb",
+      "seconds": 13.567528344671201,
+      "full_clip": true,
+      "wem_sha256": "669e8930428ea48a63472806c6d323c2a34b458067a0cfd97a60535a8cd792b3"
+    },
+    {
+      "role": "scream3",
+      "source": "Squidward scream 3.wav",
+      "source_sha256": "cd3c3bede7865a006a749b3ff78645d169f439395c0c9300dcec24b49103a326",
+      "seconds": 8.081746031746032,
+      "full_clip": true,
+      "wem_sha256": "26e247e693cd86b5e779529f26f84cbc0f46de4a04bffd519c098a796829c667"
+    }
+  ],
+  "E": "OnCast Play26936025 now targets custom release container261100005. Missile release event retains stopcharge210751008 only. Full E plays once from charge onset.",
+  "purchase": {
+    "1989001022": 246810958,
+    "1504941814": 463200912,
+    "486956839": 706494478,
+    "3162797915": 490893084,
+    "2493453670": 14565971,
+    "2673763793": 95257756,
+    "329350197": 1018985529
+  },
+  "purchase_sound": 1048964796,
+  "purchase_scope": "Common HUD applies all champions; modern basic/components/legendary/mythic/upgrade plus legacy buy/upgrade. Map30 Arena separate HUD bank not overridden.",
+  "purchase_diagnosis": "C07 omitted five modern registered events; stop-before-play is not proven defective. Single Play uses existing native Sound max-instance1.",
+  "laugh": "Restored native registered VO event660848939; full14.694s future media711994501. Retired custom animation start to avoid duplicate. Exact cause of C07 custom hook failure unproven.",
+  "restored_voice_events": [
+    660848939,
+    4037733169,
+    2609962115,
+    2737102358
+  ],
+  "slots": {
+    "697490069": [
+      711994501,
+      "future"
+    ],
+    "101406140": [
+      952355956,
+      "scream0"
+    ],
+    "161564829": [
+      864556338,
+      "scream1"
+    ],
+    "207429644": [
+      371331112,
+      "scream3"
+    ],
+    "60179366": [
+      912339945,
+      "move"
+    ],
+    "324274736": [
+      748080020,
+      "move"
+    ]
+  },
+  "selection": "Attack3/15 equal-weight native slots; standard movement1/17; long movement1/11. Native shuffle/avoid-repeat can change conditional odds. Parent VO cap1 preserved; game command cooldown remains inherited, no new time cooldown asserted. All remaining VO media silent.",
+  "streaming": "Native StreamType2 and plugin retained. In-memory size set to available full WEM; external WPK media span validated.",
+  "strict_animation": {
+    "bytes": 73205,
+    "entries": 1,
+    "checked_declared_sizes": 2568,
+    "fields": 2923,
+    "eof_exact": true
+  },
+  "outputs": {
+    "Briar.en_US.wad.client\\0bf1d74ba8e576a0.bnk": "6600155136d8542a994651a06b304f315b238a3ca899dce4dcab896958e4bedb",
+    "Briar.en_US.wad.client\\d3bb103ed206538d.wpk": "6fc560afcfa99c46182409bd1a43e3520df80f4e2f45b1527521161f1b6fda72",
+    "Briar.wad.client\\ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_audio.bnk": "985aeb94d3bd1b3a7ec0d1cf8c0995960bed52f19edc20e1c29d1b33a48d1572",
+    "Briar.wad.client\\ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_events.bnk": "073dabd8a89c768feacdea8f21882876ba29bb66c3903ce424f5bd796e7e9037",
+    "Briar.wad.client\\DATA\\Characters\\Briar\\Animations\\Skin0.bin": "b95c2757f3ff44ea6284b91e46c49a062771f4f0840b87d7e84f35305afa2937",
+    "Common.wad.client\\ASSETS\\Sounds\\Wwise2016\\SFX\\Shared\\HUD_Global_audio.bnk": "734f84338fe3b794aaa0eea5bca9c94a6e0324af9fe65285fc36ef462adb7c7c",
+    "Common.wad.client\\ASSETS\\Sounds\\Wwise2016\\SFX\\Shared\\HUD_Global_events.bnk": "5023489d93193a95e4dfd26481330c34659c7cd915ad5969e00d62c0dae6db1b"
+  },
+  "runtime_gate": "E charge timing; basic/consumable/component/completed purchase and rapid buys; laugh emote; sparse attack/movement clips and native interruption; footsteps/death regression. R audio reserved."
+}

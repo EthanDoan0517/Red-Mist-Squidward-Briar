@@ -1,0 +1,3241 @@
+[
+  {
+    "entry": "1d30e27c",
+    "name": "Briar_Base_Z_Frenzy_Daggers_Spawn",
+    "emitters": [
+      {
+        "emitterName": "impactStones",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Gem_Shard1.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              2.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.699999988079071,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    2.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Gem.tex"
+      },
+      {
+        "emitterName": "flashAdd",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              30.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.699999988079071,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.699999988079071,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    30.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Flash02.tex"
+      },
+      {
+        "emitterName": "flashBlend",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              30.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.699999988079071,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.699999988079071,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    30.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Flash02.tex"
+      },
+      {
+        "emitterName": "GlowFlash1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              170.0,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "bright_flash",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              40.0,
+              1.0,
+              0.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_E_Tar_alpha1.tex"
+      },
+      {
+        "emitterName": "Spikes_Edge_Dark",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              60.0,
+              50.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.30000001192092896,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          1.0,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    60.0,
+                    50.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_4x4_Pink.tex"
+      },
+      {
+        "emitterName": "TrailBlend",
+        "primitive": [
+          {
+            "hash": "mTrail",
+            "type": "EMBED",
+            "hash_type": "VfxTrailDefinitionData",
+            "data": [
+              {
+                "hash": "mMode",
+                "type": "U8",
+                "data": 1
+              },
+              {
+                "hash": "mBirthTilingSize",
+                "type": "EMBED",
+                "hash_type": "ValueVector3",
+                "data": [
+                  {
+                    "hash": "constantValue",
+                    "type": "VEC3",
+                    "data": [
+                      300.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              },
+              {
+                "hash": "mSmoothingMode",
+                "type": "U8",
+                "data": 1
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              30.0,
+              30.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge.tex"
+      },
+      {
+        "emitterName": "TrailBlend1",
+        "primitive": [
+          {
+            "hash": "mTrail",
+            "type": "EMBED",
+            "hash_type": "VfxTrailDefinitionData",
+            "data": [
+              {
+                "hash": "mMode",
+                "type": "U8",
+                "data": 1
+              },
+              {
+                "hash": "mBirthTilingSize",
+                "type": "EMBED",
+                "hash_type": "ValueVector3",
+                "data": [
+                  {
+                    "hash": "constantValue",
+                    "type": "VEC3",
+                    "data": [
+                      300.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              },
+              {
+                "hash": "mSmoothingMode",
+                "type": "U8",
+                "data": 1
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              30.0,
+              30.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge.tex"
+      },
+      {
+        "emitterName": "bright_flash1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              10.0,
+              20.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_CommonFlare.tex"
+      },
+      {
+        "emitterName": "darkBacker",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              60.0,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_colorHold.tex"
+      }
+    ]
+  },
+  {
+    "entry": "36783e2f",
+    "name": "Briar_Base_R_Cas_BackJets_BlastOff",
+    "emitters": [
+      {
+        "emitterName": "large spark1",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              400.0,
+              900.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_LensFlare.tex"
+      },
+      {
+        "emitterName": "GlowFlash",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              150.0,
+              195.5,
+              0.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "GlowFlash1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              650.0,
+              195.5,
+              0.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "large spark2",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              400.0,
+              900.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_LensFlare.tex"
+      }
+    ]
+  },
+  {
+    "entry": "8694b084",
+    "name": "Briar_Base_Z_Frenzy_Daggers",
+    "emitters": [
+      {
+        "emitterName": "Core",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_NewEdge.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Mis_Outline.tex"
+      },
+      {
+        "emitterName": "GlowFlash",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              185.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    185.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "Mid",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_Outer.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "BG",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_Outer.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "Additive",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_NewEdge.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Mis_Outline.tex"
+      }
+    ]
+  },
+  {
+    "entry": "8df1b728",
+    "name": "Briar_Base_R_Cas_Jets",
+    "emitters": [
+      {
+        "emitterName": "Noise",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_BackJets.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              0.699999988079071,
+              0.4000000059604645,
+              0.5
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Fire_Noise_BW.tex"
+      },
+      {
+        "emitterName": "CenterTar_Glow",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              100.0,
+              195.5,
+              0.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    100.0,
+                    195.5,
+                    0.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "BG",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              12.0,
+              6.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Ripple.tex"
+      },
+      {
+        "emitterName": "Core",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              7.0,
+              5.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Ripple.tex"
+      },
+      {
+        "emitterName": "CenterTar",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              50.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    50.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Jet_CoreSheen.tex"
+      },
+      {
+        "emitterName": "CenterTar_BG",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              40.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    40.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "Noise_Gradient",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_BackJets.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              0.699999988079071,
+              0.4000000059604645,
+              0.5
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Fire_Noise_BW.tex"
+      },
+      {
+        "emitterName": "Noise1",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_BackJets.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              0.699999988079071,
+              0.4000000059604645,
+              0.5
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Fire_Noise_BW.tex"
+      },
+      {
+        "emitterName": "Noise_Gradient1",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_BackJets.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              0.699999988079071,
+              0.4000000059604645,
+              0.5
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Fire_Noise_BW.tex"
+      },
+      {
+        "emitterName": "BG1",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              12.0,
+              6.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Ripple.tex"
+      },
+      {
+        "emitterName": "Core1",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              7.0,
+              5.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Ripple.tex"
+      },
+      {
+        "emitterName": "CenterTar1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              50.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    50.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Jet_CoreSheen.tex"
+      },
+      {
+        "emitterName": "CenterTar_BG1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              40.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    40.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "CenterTar_Glow1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              100.0,
+              195.5,
+              0.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    100.0,
+                    195.5,
+                    0.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "blackOrb_main",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              70.0,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_E_Mouth_Charge_alpha3b.tex"
+      },
+      {
+        "emitterName": "CenterTar_Glow2",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              500.0,
+              195.5,
+              0.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    500.0,
+                    195.5,
+                    0.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "Distortion_Scream1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              100.0,
+              300.0,
+              300.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_colorHold.tex"
+      },
+      {
+        "emitterName": "Nebula_Smoke",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              55.0,
+              55.0,
+              45.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.25
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.2999999523162842
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.25
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    55.0,
+                    55.0,
+                    45.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_SmokeSiwlr_02.tex"
+      },
+      {
+        "emitterName": "Nebula_Smoke1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              55.0,
+              55.0,
+              45.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.25
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.2999999523162842
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.25
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    55.0,
+                    55.0,
+                    45.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_SmokeSiwlr_02.tex"
+      },
+      {
+        "emitterName": "large spark",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              400.0,
+              900.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          2.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    400.0,
+                    900.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_LensFlare.tex"
+      },
+      {
+        "emitterName": "large spark1",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              400.0,
+              900.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          2.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    400.0,
+                    900.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_LensFlare.tex"
+      }
+    ]
+  },
+  {
+    "entry": "b606bf46",
+    "name": "Briar_Base_R_BackJets_ChildParticle",
+    "emitters": [
+      {
+        "emitterName": "BG",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              15.0,
+              15.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "CenterTar1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              40.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    40.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "Distortion_Scream",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              100.0,
+              200.0,
+              300.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_colorHold.tex"
+      },
+      {
+        "emitterName": "Mid",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              8.0,
+              10.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_E_Proj_BlackEnergy_alpha1.tex"
+      },
+      {
+        "emitterName": "Mid_Rotated",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              15.0,
+              15.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "BG_R",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              15.0,
+              8.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "Glow",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              220.0,
+              300.0,
+              50.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "BG_L",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              15.0,
+              8.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "Core6",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Z_FireCore.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              10.0,
+              10.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_E_Charge_Decal_alpha.tex"
+      },
+      {
+        "emitterName": "CenterTar2",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              40.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    40.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Jet_CoreSheen.tex"
+      }
+    ]
+  },
+  {
+    "entry": "c4127d38",
+    "name": "Briar_Base_Z_Frenzy_DaggersL",
+    "emitters": [
+      {
+        "emitterName": "GlowFlash",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              185.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    185.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "Core",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_NewEdge.scb"
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Mis_Outline.tex"
+      },
+      {
+        "emitterName": "Mid",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_Outer.scb"
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "BG",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_Outer.scb"
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Explosion_HorizontalEdge_v2.tex"
+      },
+      {
+        "emitterName": "Additive",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Z_Dagger_NewEdge.scb"
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Mis_Outline.tex"
+      }
+    ]
+  },
+  {
+    "entry": "ecace1ad",
+    "name": "Briar_Base_R_BackJets",
+    "emitters": [
+      {
+        "emitterName": "Wing_1",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              0.10000000149011612,
+              10.0,
+              0.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_colorHold.tex"
+      },
+      {
+        "emitterName": "Wing_2",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              0.10000000149011612,
+              10.0,
+              0.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_colorHold.tex"
+      },
+      {
+        "emitterName": "Projected_Glow",
+        "primitive": [
+          {
+            "hash": "mProjection",
+            "type": "EMBED",
+            "hash_type": "VfxProjectionDefinitionData",
+            "data": [
+              {
+                "hash": "mYRange",
+                "type": "F32",
+                "data": 800.0
+              },
+              {
+                "hash": "colorModulate",
+                "type": "EMBED",
+                "hash_type": "ValueColor",
+                "data": [
+                  {
+                    "hash": "constantValue",
+                    "type": "VEC4",
+                    "data": [
+                      0.8699931502342224,
+                      0.0800030529499054,
+                      0.14999619126319885,
+                      0.7300068736076355
+                    ]
+                  },
+                  {
+                    "hash": "dynamics",
+                    "type": "POINTER",
+                    "hash_type": "VfxAnimatedColorVariableData",
+                    "data": [
+                      {
+                        "hash": "times",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          0.5,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "values",
+                        "type": "LIST",
+                        "value_type": "VEC4",
+                        "data": [
+                          [
+                            0.8699931502342224,
+                            0.0800030529499054,
+                            0.14999619126319885,
+                            0.0
+                          ],
+                          [
+                            0.8699931502342224,
+                            0.0800030529499054,
+                            0.14999619126319885,
+                            0.7300068736076355
+                          ],
+                          [
+                            0.8699931502342224,
+                            0.0800030529499054,
+                            0.14999619126319885,
+                            0.0
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              600.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.5,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    600.0,
+                    1.0,
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Alpha_Backdrop.tex"
+      },
+      {
+        "emitterName": "BlastOff_ChildParticle",
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              0.10000000149011612,
+              10.0,
+              0.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_colorHold.tex"
+      },
+      {
+        "emitterName": "Noise_3",
+        "primitive": [
+          {
+            "hash": "mMesh",
+            "type": "EMBED",
+            "hash_type": "VfxMeshDefinitionData",
+            "data": [
+              {
+                "hash": "mSimpleMeshName",
+                "type": "STRING",
+                "data": "ASSETS/Characters/Briar/Skins/Base/Particles/AurelionSol_Skin01_R_Comet_CoreMesh.scb"
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              3.0,
+              3.0,
+              2.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_Impact_NovaMask.tex"
+      },
+      {
+        "emitterName": "MakerTrench4",
+        "primitive": [
+          {
+            "hash": "mTrail",
+            "type": "EMBED",
+            "hash_type": "VfxTrailDefinitionData",
+            "data": [
+              {
+                "hash": "mMode",
+                "type": "U8",
+                "data": 1
+              },
+              {
+                "hash": "mBirthTilingSize",
+                "type": "EMBED",
+                "hash_type": "ValueVector3",
+                "data": [
+                  {
+                    "hash": "constantValue",
+                    "type": "VEC3",
+                    "data": [
+                      690.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              90.0,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_R_GroundTrail.tex"
+      },
+      {
+        "emitterName": "MakerTrench5",
+        "primitive": [
+          {
+            "hash": "mTrail",
+            "type": "EMBED",
+            "hash_type": "VfxTrailDefinitionData",
+            "data": [
+              {
+                "hash": "mMode",
+                "type": "U8",
+                "data": 1
+              },
+              {
+                "hash": "mBirthTilingSize",
+                "type": "EMBED",
+                "hash_type": "ValueVector3",
+                "data": [
+                  {
+                    "hash": "constantValue",
+                    "type": "VEC3",
+                    "data": [
+                      690.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              90.0,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_R_GroundTrail.tex"
+      },
+      {
+        "emitterName": "GoodOne2",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              200.0,
+              150.0,
+              0.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.4000000059604645,
+                          1.100000023841858
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.4000000059604645,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    200.0,
+                    150.0,
+                    0.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_GroundSmoke.tex"
+      },
+      {
+        "emitterName": "GoodOne3",
+        "primitive": [],
+        "birthScale0": [
+          {
+            "hash": "constantValue",
+            "type": "VEC3",
+            "data": [
+              200.0,
+              150.0,
+              0.0
+            ]
+          },
+          {
+            "hash": "dynamics",
+            "type": "POINTER",
+            "hash_type": "VfxAnimatedVector3fVariableData",
+            "data": [
+              {
+                "hash": "probabilityTables",
+                "type": "LIST",
+                "value_type": "POINTER",
+                "data": [
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.4000000059604645,
+                          1.100000023841858
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": [
+                      {
+                        "hash": "keyTimes",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      {
+                        "hash": "keyValues",
+                        "type": "LIST",
+                        "value_type": "F32",
+                        "data": [
+                          0.4000000059604645,
+                          1.0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "hash": null,
+                    "type": "POINTER",
+                    "hash_type": "VfxProbabilityTableData",
+                    "data": []
+                  }
+                ]
+              },
+              {
+                "hash": "times",
+                "type": "LIST",
+                "value_type": "F32",
+                "data": [
+                  0.0
+                ]
+              },
+              {
+                "hash": "values",
+                "type": "LIST",
+                "value_type": "VEC3",
+                "data": [
+                  [
+                    200.0,
+                    150.0,
+                    0.0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "texture": "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_R_GroundSmoke.tex"
+      }
+    ]
+  }
+]

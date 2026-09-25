@@ -1,0 +1,65 @@
+{
+  "status": "PASS \u2014 OFFLINE STRUCTURAL REVIEW",
+  "SKN_sha256": "98a7945381f8a26ea54e7c6793a61756599231862d8c08cef679e51fcb56e7ad",
+  "SKN_strict_layout": {
+    "version": "4.1",
+    "vertices": 16505,
+    "indices": 81666,
+    "stride": 52,
+    "flags": 0,
+    "vertex_end": 1021904,
+    "required_bytes": 1021916,
+    "actual_bytes": 1021916,
+    "footer_bytes": 12,
+    "complete": true
+  },
+  "body_original_vertices_all_fields_unchanged": true,
+  "clarinet_uniform_scale_about_grip": 3,
+  "clarinet_max_position_error": 8.788998613340482e-06,
+  "clarinet_indices_weights_normals_UVs_unchanged": true,
+  "new_face_vertices": 1044,
+  "new_face_entirely_Head_weighted": true,
+  "all_weights_positions_indices_material_ranges_valid": true,
+  "burger_scale_about_established_center": 2,
+  "burger_max_position_error": 1.8066406255456968e-06,
+  "BIN_changed_entries": [
+    "6ac5d2e3",
+    "1d30e27c",
+    "36783e2f",
+    "8694b084",
+    "8df1b728",
+    "b606bf46",
+    "c4127d38",
+    "ecace1ad"
+  ],
+  "BIN_other_entries_unchanged": 55,
+  "BIN_strict": {
+    "bytes": 469400,
+    "entries": 63,
+    "checked_declared_sizes": 15112,
+    "fields": 22702,
+    "eof_exact": true
+  },
+  "face_texture_hash_verified": "ed03d591dfb8bc96",
+  "asset_scope": {
+    "0e35941cdacaff56.tex": "changed",
+    "0ea451e749d9d041.tex": "unchanged",
+    "25a8846439092af3.tex": "unchanged",
+    "9a2d941d891bbf9c.tex": "unchanged",
+    "b7aca08692f3da3e.tex": "unchanged",
+    "f279b76afd0f0a62.bin": "changed",
+    "ASSETS\\RedMistBriar\\burger.scb": "changed",
+    "ASSETS\\RedMistBriar\\burger.tex": "unchanged",
+    "ASSETS\\RedMistBriar\\face_colors.tex": "added",
+    "ASSETS\\Characters\\Briar\\Skins\\Base\\Briar_Base.skn": "changed",
+    "ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_audio.bnk": "added",
+    "ASSETS\\Sounds\\Wwise2016\\SFX\\Characters\\Briar\\Skins\\Base\\Briar_Base_SFX_events.bnk": "added",
+    "DATA\\Characters\\Briar\\Animations\\Skin0.bin": "added"
+  },
+  "skeleton_and_animation_payloads_omitted": true,
+  "risks": [
+    "3x clarinets and2x burger can clip/occlude at runtime; parent pose renders and user gameplay judge readability.",
+    "Seven complete dagger/R back-jet emitter systems are blanked; intentional broader visual reduction than only one flare.",
+    "Body positions unchanged, but eye triangles moved to dedicated face material and old blood triangles removed; new face geometry needs visual/deformation inspection."
+  ]
+}
